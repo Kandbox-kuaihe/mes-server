@@ -1,0 +1,1490 @@
+[
+  {
+    "header": "Order",
+    "name": "Order",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Order Items",
+    "group": "Order",
+    "name": "OrderItems",
+    "desc": "",
+    "icon": "mdi-clipboard-list-outline",
+    "href": "/order_items",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Order Items Statistics",
+    "group": "Order",
+    "name": "OrderItemsStatistics",
+    "desc": "",
+    "icon": "mdi-chart-areaspline",
+    "href": "/itemStatistics",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Order Item Detail",
+    "group": "Order",
+    "name": "OrderItemDetail",
+    "desc": "",
+    "href": "/order_item/detail",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Order Group Block",
+    "group": "Order",
+    "name": "OrderGroupBlock",
+    "desc": "",
+    "href": "/order_group_block",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Order Group",
+    "group": "Order",
+    "name": "OrderGroup",
+    "desc": "",
+    "href": "/order_group",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Order",
+    "group": "Order",
+    "name": "orderOrderList",
+    "desc": "",
+    "icon": "mdi-clipboard-multiple-outline",
+    "href": "/order",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "header": "Rolling",
+    "name": "Rolling",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Rolling",
+    "group": "Rolling",
+    "name": "rollingRollingList",
+    "desc": "",
+    "icon": "mdi-circular-saw",
+    "href": "/rolling_list",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Rolling Detail",
+    "group": "Rolling",
+    "name": "RollingDetail",
+    "desc": "",
+    "href": "/rolling_detail",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Semi Reblocking",
+    "group": "Rolling",
+    "name": "rollingSemiReblockingList",
+    "desc": "",
+    "icon": "mdi-monitor-dashboard",
+    "href": "/semi_reblocking",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Rolling Statistics",
+    "group": "Rolling",
+    "name": "rollingStatistics",
+    "desc": "",
+    "icon": "mdi-chart-areaspline",
+    "href": "/rolling/statistics",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Customer",
+    "group": "Rolling",
+    "name": "customer",
+    "desc": "",
+    "icon": "mdi-chart-areaspline",
+    "href": "/customer",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Semi Charge Status",
+    "group": "Charge Plan",
+    "icon": "mdi-script-text-outline",
+    "href": "/opreation_log",
+    "name": "chargePlanSemiChargeStatus",
+    "desc": "",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "header": "Section Weight",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Product Code",
+    "group": "Section Weight",
+    "name": "ProductCode",
+    "desc": "",
+    "icon": "mdi-cube-scan",
+    "sort": 1,
+    "href": "/product_class",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Section Type",
+    "group": "Section Weight",
+    "name": "ProductCategory",
+    "desc": "",
+    "icon": "mdi-ruler-square",
+    "sort": 2,
+    "href": "/product_category",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Semi Size",
+    "name": "SemiSizeList",
+    "desc": "",
+    "group": "Section Weight",
+    "icon": "mdi-compare",
+    "sort": 3,
+    "href": "/semi_size",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Semi Size Detail",
+    "group": "Section Weight",
+    "name": "SemiSizeDetail",
+    "desc": "",
+    "icon": "mdi-package-variant",
+    "href": "/semi_size_detail",
+    "sort": 2,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Section Weight",
+    "group": "Section Weight",
+    "name": "ProductType",
+    "desc": "",
+    "icon": "mdi-pencil-ruler-outline",
+    "sort": 4,
+    "href": "/product_type_list",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Product Size",
+    "group": "Section Weight",
+    "name": "ProductSize",
+    "desc": "",
+    "component": "Jobs",
+    "icon": "mdi-pencil-ruler-outline",
+    "href": "/product_size",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "header": "Semi",
+    "name": "Semi",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Cast",
+    "name": "semiCastList",
+    "desc": "",
+    "group": "Semi",
+    "icon": "mdi-wall-fire",
+    "href": "/semi_cast_list",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Cast Chemical Detail",
+    "name": "CastChemicalDetail",
+    "desc": "",
+    "group": "Semi",
+    "href": "/cast_chemical_detail",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Cast Spec",
+    "name": "semiCastSpec",
+    "desc": "",
+    "group": "Semi",
+    "icon": "mdi-relative-scale",
+    "href": "/semi_cast_spec",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Semi",
+    "desc": "",
+    "group": "Semi",
+    "name": "semiSemiList",
+    "icon": "mdi-razor-single-edge",
+    "href": "/semi_list",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Semi Detail",
+    "desc": "",
+    "group": "Semi",
+    "name": "SemiDetailTable",
+    "href": "/semi_detail",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Semi Load",
+    "desc": "",
+    "group": "Semi",
+    "name": "semiSemiLoadList",
+    "icon": "mdi-train-car-hopper-full",
+    "href": "/semi_load_list",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Semi Load Detail",
+    "desc": "",
+    "group": "Semi",
+    "name": "semiSemiLoadDetail",
+    "icon": "mdi-train-car-hopper-full",
+    "href": "/semi_load_detail",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Semi History",
+    "desc": "",
+    "group": "Semi",
+    "name": "semiSemiMoveHistory",
+    "icon": "mdi-progress-clock",
+    "href": "/semi_move_history",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Semi Stock Level",
+    "name": "SemiStockLevel",
+    "desc": "",
+    "group": "Semi",
+    "icon": "mdi-warehouse",
+    "href": "/stock_level",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "header": "Product Spec",
+    "name": "productSpec",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Spec",
+    "group": "Product Spec",
+    "name": "specList",
+    "desc": "",
+    "component": "Jobs",
+    "icon": "mdi-star-box-multiple-outline",
+    "href": "/spec_list",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Main Element Spec",
+    "name": "MainElementAnalysis",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-flask-outline",
+    "href": "/main_element_analysis",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Spec Various",
+    "group": "Product Spec",
+    "name": "specVarious",
+    "desc": "",
+    "component": "Jobs",
+    "icon": "mdi-star-box-multiple-outline",
+    "href": "/spec_various",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Spec Remarks",
+    "group": "Product Spec",
+    "name": "specRemarks",
+    "desc": "",
+    "component": "Jobs",
+    "icon": "mdi-star-box-multiple-outline",
+    "href": "/spec_remarks",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Spec Other Test",
+    "group": "Product Spec",
+    "name": "specOtherTest",
+    "desc": "",
+    "component": "Jobs",
+    "icon": "mdi-star-box-multiple-outline",
+    "href": "/spec_other_test",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Mill Reference Spec",
+    "name": "MillReferenceSpec",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-map-marker-star-outline",
+    "href": "/mill_reference_spec",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Spec Detail",
+    "name": "specDetail",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-file-star-outline",
+    "href": "/spec_detail",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Remark",
+    "group": "Product Spec",
+    "name": "specRemark",
+    "desc": "",
+    "icon": "mdi-comment-text-multiple-outline",
+    "href": "/spec_remark",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Impact",
+    "name": "SpecImpact",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-hammer",
+    "href": "/spec_impact",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "UTS",
+    "name": "SpecTensile",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-razor-double-edge",
+    "href": "/spec_tensile",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Yield Stress",
+    "name": "SpecYieldStress",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-sign-yield",
+    "href": "/spec_yield_stress",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Elongation Details",
+    "name": "SpecElongationDetails",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-valve-open",
+    "href": "/spec_elongation_details",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Combined Element Analysis",
+    "name": "CombinedElementAnalysis",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-flask-plus-outline",
+    "href": "/combined_element_analysis",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Product Analysis",
+    "name": "ProductAnalysis",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-flask-round-bottom-outline",
+    "href": "/product_analysis",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "CEV End Use",
+    "name": "CEVListForSpec",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-microscope",
+    "href": "/cev_list_for_spec",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "CEV Analysis",
+    "name": "CEVAnalysis",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-periodic-table",
+    "href": "/cev_analysis",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Routing Requirement",
+    "name": "RoutingRequirement",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-calendar-multiple-check",
+    "href": "/routing_requirement",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Jominy Details",
+    "name": "JominyDetails",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-notebook-multiple",
+    "href": "/jominy_details",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Bend Test Details",
+    "name": "BendTestDetails",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-download-network-outline",
+    "href": "/bend_test_details",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Deoxidation Details",
+    "name": "DeoxidationDetails",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-test-tube",
+    "href": "/deoxidation_details",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Supply Conditions",
+    "name": "SupplyConditions",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-file-tree-outline",
+    "href": "/supply_conditions",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Test Cert Extra Details",
+    "name": "TestCertExtraDetails",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-certificate-outline",
+    "href": "/test_cert_extra_details",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Tolerance",
+    "name": "Tolerance",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-perspective-less",
+    "href": "/tolerance",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Tolerance Detail",
+    "name": "ToleranceDetail",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-perspective-less",
+    "href": "/tolerance_detail",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Through Thickness Tensile",
+    "name": "Through Thickness Tensile",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-arrow-collapse-vertical",
+    "href": "/through_thickness",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Manual Semi End Use",
+    "name": "ManualSemiEndUse",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-calendar-cursor-outline",
+    "href": "/manual_semi_end_use",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Inspector",
+    "name": "Inspector",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-account-supervisor-circle",
+    "href": "/inspector",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Alternative Semi Size",
+    "desc": "",
+    "group": "Product Spec",
+    "name": "AlternativeSemiSize",
+    "icon": "mdi-ruler-square-compass",
+    "href": "/alternative_semi_size",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Quality",
+    "name": "Quality",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-eyedropper",
+    "href": "/quality",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Quality Element",
+    "name": "Quality Element",
+    "desc": "",
+    "group": "Product Spec",
+    "icon": "mdi-eyedropper",
+    "href": "/quality_element",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "header": "Test",
+    "name": "test",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Cleanness Test Card",
+    "name": "CleannessTestCard",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-file-chart-outline",
+    "href": "/cleanness_test_card",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Sulphur Test Card",
+    "name": "SulphurTestCard",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-file-table-box-outline",
+    "href": "/sulphur_test_card",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Hardness Test Card",
+    "name": "HardnessTestCard",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-note-text-outline",
+    "href": "/hardness_test_card",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Tensile Test Card",
+    "name": "TensileTestCard",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-newspaper-variant-multiple",
+    "href": "/tensile_test_card",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Decarburisation Test Card",
+    "name": "DecarburisationTestCard",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-newspaper-variant-outline",
+    "href": "/decarburisation_test_card",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Product Hydrogen Test Card",
+    "name": "ProductHydrogenTestCard",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-newspaper",
+    "href": "/product_hydrogen_test_card",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Test Sample",
+    "name": "TextSampleList",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-chart-bar-stacked",
+    "href": "/test_sample_list",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Print Control List",
+    "name": "printControlList",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-star-circle-outline",
+    "href": "/test_print_status",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Test",
+    "name": "TestList",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-chart-box-multiple-outline",
+    "href": "/test_list",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Test History",
+    "name": "testHistory",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-star-circle-outline",
+    "href": "/test_history",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Test Result Tensile",
+    "name": "TestResultTensile",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-chart-gantt",
+    "href": "/test_result_tensile",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Test Result Impact",
+    "name": "TestResultImpactList",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-chart-waterfall",
+    "href": "/test_result_impact",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Test Result Product Analysis",
+    "name": "TestResultChemicalList",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-chart-scatter-plot",
+    "href": "/test_result_chemical",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Test Result Through Thickness Tensile",
+    "name": "TestResultThroughThicknessTensile",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-chart-donut",
+    "href": "/test_result_tensile_thickness",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Bend Test Card",
+    "name": "BendTestCard",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-card-bulleted-outline",
+    "href": "/bend_test_card",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Test Jominy",
+    "name": "TestJominy",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-star-circle-outline",
+    "href": "/test_jominy",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "MLJC Test",
+    "name": "TestMLJC",
+    "desc": "",
+    "group": "Test",
+    "icon": "mdi-star-circle-outline",
+    "href": "/test_mljc",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "header": "Finished Product",
+    "name": "finishedProduct",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Runout",
+    "group": "Finished Product",
+    "name": "RunoutList",
+    "desc": "",
+    "icon": "mdi-cube-send",
+    "href": "/runout_list",
+    "sort": 1,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Runout Detail",
+    "group": "Finished Product",
+    "name": "RunoutDetail",
+    "desc": "",
+    "href": "/runout_detail",
+    "sort": 1,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Finished Product",
+    "group": "Finished Product",
+    "name": "FinishedProduct",
+    "desc": "",
+    "icon": "mdi-package-variant",
+    "href": "/finished_product",
+    "sort": 2,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Finished Product Detail",
+    "group": "Finished Product",
+    "name": "FinishedProductDetail",
+    "desc": "",
+    "icon": "mdi-package-variant",
+    "href": "/finished_product_detail",
+    "sort": 2,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Finished Product Stock Level",
+    "group": "Finished Product",
+    "name": "FinishedProductStockLevel",
+    "desc": "",
+    "icon": "mdi-package-variant",
+    "href": "/finished_product_stock_level",
+    "sort": 2,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Finished Product History",
+    "group": "Finished Product",
+    "name": "FinishedProductHistory",
+    "desc": "",
+    "icon": "mdi-archive-clock-outline",
+    "href": "/finished_product_history",
+    "sort": 3,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Order Reserve",
+    "group": "Finished Product",
+    "name": "Order Reserve",
+    "desc": "",
+    "icon": "mdi-invoice-text-multiple-outline",
+    "href": "/order_reserve",
+    "sort": 4,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Load",
+    "group": "Finished Product",
+    "name": "LoadList",
+    "desc": "",
+    "icon": "mdi-train-car-centerbeam-full",
+    "href": "/finished_product_load_list",
+    "sort": 5,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Finished Product Load Detail",
+    "group": "Finished Product",
+    "name": "finishedProductLoadDetail",
+    "desc": "",
+    "href": "/finished_product_load_detail",
+    "sort": 5,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Advice/Consignment",
+    "group": "Finished Product",
+    "name": "AdviceList",
+    "desc": "",
+    "icon": "mdi-truck-delivery-outline",
+    "href": "/advice_list",
+    "sort": 6,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Mult",
+    "group": "Finished Product",
+    "name": "MultList",
+    "desc": "",
+    "icon": "mdi-multicast",
+    "href": "/mult_list",
+    "sort": 7,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Transport",
+    "group": "Finished Product",
+    "name": "TransportList",
+    "desc": "",
+    "icon": "mdi-train-car",
+    "href": "/transport_list",
+    "sort": 8,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Transport History",
+    "group": "Finished Product",
+    "name": "TransportHistory",
+    "desc": "",
+    "icon": "mdi-bus-clock",
+    "href": "/transport_history",
+    "sort": 9,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Batch Hold and Cover",
+    "group": "Finished Product",
+    "name": "Batch Hold and Cover",
+    "desc": "",
+    "icon": "mdi-clock-time-three-outline",
+    "href": "/finished_product_hold",
+    "sort": 10,
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "header": "Maintenance",
+    "name": "maintenance",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Operation Log",
+    "desc": "",
+    "group": "Maintenance",
+    "name": "operationLog",
+    "icon": "mdi-math-log",
+    "href": "/operation_log",
+    "visibleRoles": [
+      "sys",
+      "Owner"
+    ]
+  },
+  {
+    "title": "Message Log",
+    "desc": "",
+    "group": "Maintenance",
+    "name": "MessageLog",
+    "icon": "mdi-math-log",
+    "href": "/message_log",
+    "visibleRoles": [
+      "sys",
+      "Owner"
+    ]
+  },
+  {
+    "header": "Config",
+    "name": "config",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Setting",
+    "desc": "",
+    "group": "Config",
+    "name": "Setting",
+    "icon": "mdi-cog-outline",
+    "href": "/organization",
+    "visibleRoles": [
+      "sys",
+      "Owner"
+    ]
+  },
+  {
+    "title": "Accounts",
+    "desc": "",
+    "group": "Config",
+    "name": "loginAccounts",
+    "icon": "mdi-account-cog-outline",
+    "href": "/users"
+  },
+  {
+    "title": "Menus",
+    "desc": "",
+    "group": "Config",
+    "name": "menus",
+    "icon": "mdi-folder-cog-outline",
+    "href": "/menus",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Roles",
+    "desc": "",
+    "group": "Config",
+    "name": "roles",
+    "icon": "mdi-account-cog-outline",
+    "href": "/roles",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Mill",
+    "group": "Config",
+    "name": "MillList",
+    "desc": "",
+    "icon": "mdi-office-building-cog-outline",
+    "href": "/mill",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "header": "Master Data",
+    "name": "MasterData",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Site Type",
+    "group": "Master Data",
+    "name": "SiteTypeList",
+    "desc": "",
+    "icon": "mdi-domain",
+    "href": "/site_type",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Site",
+    "group": "Master Data",
+    "name": "SiteList",
+    "desc": "",
+    "icon": "mdi-office-building-marker-outline",
+    "href": "/site",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Area",
+    "group": "Master Data",
+    "name": "area",
+    "desc": "",
+    "icon": "mdi-toy-brick-marker-outline",
+    "href": "/area",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Shift",
+    "desc": "",
+    "group": "Master Data",
+    "name": "ShiftList",
+    "icon": "mdi-account-convert-outline",
+    "href": "/shift_list",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Shift Delay",
+    "desc": "",
+    "group": "Master Data",
+    "name": "ShiftDelayList",
+    "icon": "mdi-account-convert-outline",
+    "href": "/shift_delay_list",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Hold Reason",
+    "group": "Master Data",
+    "name": "Hold Reason List",
+    "desc": "",
+    "icon": "mdi-car-brake-hold",
+    "href": "/holdreason_list",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Semi Hold Reason",
+    "group": "Master Data",
+    "name": "Semi Hold Reason",
+    "desc": "",
+    "icon": "mdi-garage-lock",
+    "href": "/semi_hold_reason",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Regrade Reason",
+    "desc": "",
+    "group": "Master Data",
+    "name": "RegradeReasonList",
+    "icon": "mdi-cog-transfer-outline",
+    "href": "/regradereason",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Defect Reason",
+    "desc": "",
+    "group": "Master Data",
+    "name": "DefectReasonList",
+    "icon": "mdi-cog-counterclockwise",
+    "href": "/defect_reason",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Alternative Quality Code",
+    "desc": "",
+    "group": "Product Spec",
+    "name": "AlternativeQualityCode",
+    "icon": "mdi-podium-silver",
+    "href": "/alt_quality_code",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Covering Usage",
+    "desc": "",
+    "group": "Test",
+    "name": "CoveringUsage",
+    "icon": "mdi-atom-variant",
+    "href": "/covering_usage",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  },
+  {
+    "title": "Spec Formula",
+    "desc": "",
+    "group": "Product Spec",
+    "name": "Spec Formula",
+    "icon": "mdi-atom-variant",
+    "href": "/spec_formula",
+    "visibleRoles": [
+      "sys",
+      "Owner",
+      "Planner"
+    ]
+  }
+]

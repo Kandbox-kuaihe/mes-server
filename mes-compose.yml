@@ -1,0 +1,50 @@
+version: "3.4"
+
+x-restart-policy:
+  restart: always
+
+services:
+  postgres:
+    container_name: postgres
+    env_file:
+      - dev.env
+    image: "postgres:16"
+    ports:
+      - "5432:5432"
+    volumes:
+      - ~/data/postgres:/var/lib/postgresql/data
+    restart: always
+
+  redis:
+    container_name: redis
+    env_file:
+      - dev.env
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
+    volumes:
+      - ~/data/redis:/data
+    restart: always
+
+  mes:
+    build:
+      context: ./     # 假设你的 Dockerfile 在 ./ 目录中
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - ./:/app
+      - ./.log:/app/.log  # 把日志挂到宿主机
+    restart: always
+    env_file:
+      - dev.env
+    depends_on:
+      - postgres
+      - redis
+
+
+# docker-compose -f mes-compose.yml -p easy up -d
+
+# docker-compose -f mes-compose.yml -p easy down

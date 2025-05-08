@@ -1,0 +1,2698 @@
+{
+  "default_job_flex_form_data": {
+    "semi_type": [
+      {
+        "title": "Slab",
+        "value": "Slab"
+      },
+      {
+        "title": "Billet",
+        "value": "billet"
+      },
+      {
+        "title": "BLM",
+        "value": "BLM"
+      },
+      {
+        "title": "Bloom",
+        "value": "Bloom"
+      }
+    ],
+    "semi_status": [
+      {
+        "title": "Scrapped",
+        "value": "Scrapped"
+      },
+      {
+        "title": "Charged",
+        "value": "Charged"
+      },
+      {
+        "title": "Created",
+        "value": "Created"
+      },
+      {
+        "title": "Processed",
+        "value": "Processed"
+      },
+      {
+        "title": "Rolled",
+        "value": "Rolled"
+      },
+      {
+        "title": "In Transit",
+        "value": "In Transit"
+      },
+      {
+        "title": "Furnace",
+        "value": "Furnace"
+      },
+      {
+        "title": "Dropout",
+        "value": "Dropout"
+      },
+      {
+        "title": "Shear",
+        "value": "Shear"
+      },
+      {
+        "title": "Refmill",
+        "value": "Refmill"
+      },
+      {
+        "title": "Banks",
+        "value": "Banks"
+      },
+      {
+        "title": "Despatched",
+        "value": "Despatched"
+      },
+      {
+        "title": "Tip",
+        "value": "Tip"
+      }
+    ],
+    "spria_loc": [
+      {
+        "title": "F-Flange",
+        "value": "F"
+      },
+      {
+        "title": "W-Web",
+        "value": "W"
+      },
+      {
+        "title": "Thickest",
+        "value": "T"
+      }
+    ],
+    "spec_unit": [
+      {
+        "title": "Imperial",
+        "value": "I",
+        "desc": "Imperical also means ASTM standard"
+      },
+      {
+        "title": "Metrics",
+        "value": "M",
+        "desc": "Metrics also means ES standard"
+      }
+    ],
+    "stock_test_flag": [
+      {
+        "title": "Y",
+        "value": "Y"
+      },
+      {
+        "title": "N",
+        "value": "N"
+      }
+    ],
+    "test_type": [
+      {
+        "value": "1",
+        "title": "1 - ASTM tensile, between thickest and thinnest."
+      },
+      {
+        "title": "2 - Tensile, Every 5 tonnes.",
+        "value": "2"
+      },
+      {
+        "title": "3 - BSEN tensile, Every N (40,60,etc) tonnes.",
+        "value": "3"
+      },
+      {
+        "title": "4 - Type 3 plus BSEN Charpy.",
+        "value": "4"
+      },
+      {
+        "title": "5 - Type 1 plus ASTM Charpy.",
+        "value": "5"
+      }
+    ],
+    "test_subtype": [
+      {
+        "title": "A - 40 tonnes in Tensile, any thinner in Charpy.",
+        "value": "A"
+      },
+      {
+        "title": "B - 40 tonnes up to 100 kg/m, 60 tonnes above. ",
+        "value": "B"
+      },
+      {
+        "title": "C - 40 tonnes regardless of Flange Thickness.",
+        "value": "C"
+      },
+      {
+        "title": "D - 40 tonnes, tensile restricted -5 mm.",
+        "value": "D"
+      },
+      {
+        "title": "Y - Tesile taken from Web in Type 1 and 5.",
+        "value": "Y"
+      },
+      {
+        "title": "Z - Tesile taken from Flange in Type 1 and 5",
+        "value": "Z"
+      }
+    ],
+    "main_element_type": [
+      {
+        "title": "Main",
+        "value": "Main"
+      },
+      {
+        "title": "ISS",
+        "value": "ISS"
+      },
+      {
+        "title": "ISB",
+        "value": "ISB"
+      },
+      {
+        "title": "ITB",
+        "value": "ITB"
+      },
+      {
+        "title": "ITS",
+        "value": "ITS"
+      },
+      {
+        "title": "Ext",
+        "value": "Ext"
+      }
+    ],
+    "quality_element_type": [
+      {
+        "title": "Main",
+        "value": "Main"
+      },
+      {
+        "title": "ISS",
+        "value": "ISS"
+      },
+      {
+        "title": "ISB",
+        "value": "ISB"
+      }
+    ],
+    "spscond_code": [
+      {
+        "title": "AR-AS ROLLED",
+        "value": "AR",
+        "text": "AS ROLLED"
+      },
+      {
+        "title": "TCR-TEMPERATURE CONTROLLED ROLLED",
+        "value": "TCR",
+        "text": "TEMPERATURE CONTROLLED ROLLED"
+      },
+      {
+        "title": "TMR-THERMOMECHANICALLY ROLLED",
+        "value": "TMR",
+        "text": "THERMOMECHANICALLY ROLLED"
+      },
+      {
+        "title": "TMCR-THERMOMECHANICALLY CONTROL ROLLED",
+        "value": "TMCR",
+        "text": "THERMOMECHANICALLY CONTROL ROLLED"
+      },
+      {
+        "title": "AC-ACCELERATED COOLED",
+        "value": "AC",
+        "text": "ACCELERATED COOLED"
+      },
+      {
+        "title": "CR-CONTROL ROLLED",
+        "value": "CR",
+        "text": "CONTROL ROLLED"
+      },
+      {
+        "title": "NR-NORMALISING ROLLING",
+        "value": "NR",
+        "text": "NORMALISING ROLLING"
+      }
+    ],
+    "deoxidation_loc": [
+      {
+        "title": "B-BALANCED.",
+        "value": "B"
+      },
+      {
+        "title": "BA-ALUMINIUM BALANCED",
+        "value": "BA"
+      },
+      {
+        "title": "BN-BALANCED NIOBIUM TREATED",
+        "value": "BN"
+      },
+      {
+        "title": "K-SILICON KILLED",
+        "value": "K"
+      },
+      {
+        "title": "KA-SIL KILLED ALUMINIUM GRAIN REF",
+        "value": "KA"
+      },
+      {
+        "title": "KF-SILICON KILLED-FINE GRAINED",
+        "value": "KF"
+      },
+      {
+        "title": "KN-SI KILLED-NIOB,AL FINE GRAINED",
+        "value": "KN"
+      },
+      {
+        "title": "KV-SI-KILLED-VANADIUM-TREATED",
+        "value": "KV"
+      },
+      {
+        "title": "R-RIMMED",
+        "value": "R"
+      },
+      {
+        "title": "RA-RIMMED ALUMINIUM STABILISED",
+        "value": "RA"
+      },
+      {
+        "title": "RB-RIMMED OR BALANCED",
+        "value": "RB"
+      },
+      {
+        "title": "RN-RIMMED NITROGEN BEARING",
+        "value": "RN"
+      },
+      {
+        "title": "SA-SILICON FREE-ALUMINIUM KILLED",
+        "value": "SA"
+      }
+    ],
+    "spec_bend_test_info": [
+      {
+        "title": "Y-Information Only Result",
+        "value": "Y"
+      },
+      {
+        "title": "N-Mandatory",
+        "value": "N"
+      }
+    ],
+    "spec_bend_test_direction": [
+      {
+        "title": "L-Longitudinal",
+        "value": "L"
+      },
+      {
+        "title": "T-Transverse",
+        "value": "T"
+      }
+    ],
+    "CEV_Formula": [
+      {
+        "title": "1 = C+MN/6(ROUND TO 2 DEC.PLACES)",
+        "value": "1"
+      },
+      {
+        "title": "2 = C+MN/6 (NOT ROUNDED)",
+        "value": "2"
+      },
+      {
+        "title": "3 = C+MN/10",
+        "value": "3"
+      },
+      {
+        "title": "4 = FULL FORMULA",
+        "value": "4"
+      },
+      {
+        "title": "5 = C+MN/6+CR/5 + MO/4",
+        "value": "5"
+      },
+      {
+        "title": "6 = C+(MN+ SI)/4",
+        "value": "6"
+      },
+      {
+        "title": "7 = LLOYDS FORMULA+SI/24",
+        "value": "7"
+      },
+      {
+        "title": "8 = C+ MN/5",
+        "value": "8"
+      },
+      {
+        "title": "9 = C+MN/6+CR+MO+V/5+NI+CU/15",
+        "value": "9"
+      }
+    ],
+    "CEV_Location": [
+      {
+        "title": "T-Thickest",
+        "value": "T-Thickest"
+      },
+      {
+        "title": "W-Web",
+        "value": "W-Web"
+      },
+      {
+        "title": "F-Flange",
+        "value": "F-Flange"
+      }
+    ],
+    "PCM_Location": [
+      {
+        "title": "T-Thickest",
+        "value": "T-Thickest"
+      },
+      {
+        "title": "W-Web",
+        "value": "W-Web"
+      },
+      {
+        "title": "F-Flange",
+        "value": "F-Flange"
+      }
+    ],
+    "Remark_Group": [
+      {
+        "title": "group 1",
+        "value": "group_1"
+      },
+      {
+        "title": "group 2",
+        "value": "group_2"
+      },
+      {
+        "title": "group 3",
+        "value": "group_3"
+      },
+      {
+        "title": "group 4",
+        "value": "group_4"
+      },
+      {
+        "title": "group 5",
+        "value": "group_5"
+      },
+      {
+        "title": "group 6",
+        "value": "group_6"
+      },
+      {
+        "title": "group 7",
+        "value": "group_7"
+      },
+      {
+        "title": "group 8",
+        "value": "group_8"
+      },
+      {
+        "title": "group 9",
+        "value": "group_9"
+      }
+    ],
+    "Remark_Type": [
+      {
+        "title": "A",
+        "value": "A"
+      },
+      {
+        "title": "B",
+        "value": "B"
+      },
+      {
+        "title": "C",
+        "value": "C"
+      },
+      {
+        "title": "D",
+        "value": "D"
+      },
+      {
+        "title": "E",
+        "value": "E"
+      },
+      {
+        "title": "F",
+        "value": "F"
+      },
+      {
+        "title": "G",
+        "value": "G"
+      },
+      {
+        "title": "H",
+        "value": "H"
+      },
+      {
+        "title": "I",
+        "value": "I"
+      },
+      {
+        "title": "J",
+        "value": "J"
+      },
+      {
+        "title": "K",
+        "value": "K"
+      },
+      {
+        "title": "L",
+        "value": "L"
+      },
+      {
+        "title": "M",
+        "value": "M"
+      },
+      {
+        "title": "N",
+        "value": "N"
+      },
+      {
+        "title": "O",
+        "value": "O"
+      },
+      {
+        "title": "P",
+        "value": "P"
+      },
+      {
+        "title": "Q",
+        "value": "Q"
+      },
+      {
+        "title": "R",
+        "value": "R"
+      },
+      {
+        "title": "S",
+        "value": "S"
+      },
+      {
+        "title": "T",
+        "value": "T"
+      },
+      {
+        "title": "U",
+        "value": "U"
+      },
+      {
+        "title": "V",
+        "value": "V"
+      },
+      {
+        "title": "W",
+        "value": "W"
+      },
+      {
+        "title": "X",
+        "value": "X"
+      },
+      {
+        "title": "Y",
+        "value": "Y"
+      },
+      {
+        "title": "Z",
+        "value": "Z"
+      }
+    ],
+    "spec_location": [
+      {
+        "title": "Flange",
+        "value": "F"
+      },
+      {
+        "title": "Thickest required",
+        "value": "T"
+      }
+    ],
+    "spec_type": [
+      {
+        "title": "Main",
+        "value": "Main"
+      },
+      {
+        "title": "ISS",
+        "value": "ISS"
+      },
+      {
+        "title": "ISB",
+        "value": "ISB"
+      }
+    ],
+    "impact_location": [
+      {
+        "title": "Flange",
+        "value": "Flange"
+      },
+      {
+        "title": "Core",
+        "value": "Core"
+      }
+    ],
+    "impact_orientation": [
+      {
+        "title": "L-Longitudinal",
+        "value": "L"
+      },
+      {
+        "title": "T-Transverse",
+        "value": "T"
+      },
+      {
+        "title": "C-Core",
+        "value": "C"
+      },
+      {
+        "title": "Z-Through Thickness",
+        "value": "Z"
+      }
+    ],
+    "impact_i": [
+      {
+        "title": "J-Joules",
+        "value": "J"
+      },
+      {
+        "title": "F-Foot-pounds",
+        "value": "F"
+      }
+    ],
+    "impact_t": [
+      {
+        "title": "C-Celsius",
+        "value": "C"
+      },
+      {
+        "title": "F-Fahrenheit",
+        "value": "F"
+      }
+    ],
+    "other_code": [
+      {
+        "title": "A",
+        "value": "A"
+      },
+      {
+        "title": "B",
+        "value": "B"
+      }
+    ],
+    "rework_type#srsm": [
+      {
+        "title": "PATCHING",
+        "value": "PATCHING",
+        "children": [
+          {
+            "title": "Lap",
+            "value": "LP"
+          },
+          {
+            "title": "Inspection",
+            "value": "IP"
+          },
+          {
+            "title": "Piece Out",
+            "value": "PO"
+          },
+          {
+            "title": "Pin Wire",
+            "value": "PW"
+          },
+          {
+            "title": "Roll Wear",
+            "value": "RW"
+          },
+          {
+            "title": "Saw Rag",
+            "value": "SR"
+          },
+          {
+            "title": "Under Fill",
+            "value": "UF"
+          }
+        ]
+      },
+      {
+        "title": "STRAIGHTENING",
+        "value": "STRAIGHTENING",
+        "children": [
+          {
+            "title": "Re Cold Straighten",
+            "value": "RCS"
+          },
+          {
+            "title": "Reset",
+            "value": "RS"
+          },
+          {
+            "title": "Run Through",
+            "value": "RT"
+          },
+          {
+            "title": "Half Tolerance",
+            "value": "1_2_bs4"
+          }
+        ]
+      },
+      {
+        "title": "CUT",
+        "value": "CUT",
+        "children": [
+          {
+            "title": "CUT",
+            "value": "CUT"
+          }
+        ]
+      }
+    ],
+    "rework_type#tbm": [
+      {
+        "title": "PATCHING",
+        "value": "PATCHING",
+        "children": [
+          {
+            "title": "Lap",
+            "value": "LP"
+          },
+          {
+            "title": "Inspection",
+            "value": "IP"
+          },
+          {
+            "title": "Piece Out",
+            "value": "PO"
+          },
+          {
+            "title": "Pin Wire",
+            "value": "PW"
+          },
+          {
+            "title": "Roll Wear",
+            "value": "RW"
+          },
+          {
+            "title": "Saw Rag",
+            "value": "SR"
+          },
+          {
+            "title": "Under Fill",
+            "value": "UF"
+          }
+        ]
+      },
+      {
+        "title": "STRAIGHTENING",
+        "value": "STRAIGHTENING",
+        "children": [
+          {
+            "title": "Re Cold Straighten",
+            "value": "RCS"
+          },
+          {
+            "title": "Reset",
+            "value": "RS"
+          },
+          {
+            "title": "Run Through",
+            "value": "RT"
+          },
+          {
+            "title": "Half Tolerance",
+            "value": "1_2_bs4"
+          }
+        ]
+      }
+    ],
+    "semi_rework_type": [
+      {
+        "title": "Scarf",
+        "value": "Scarf"
+      }
+    ],
+    "rework_status_filter": [
+      {
+        "title": "",
+        "value": ""
+      },
+      {
+        "title": "Patching",
+        "value": "Patching"
+      },
+      {
+        "title": "Cold Straightening",
+        "value": "Cold Straightening"
+      },
+      {
+        "title": "Complete",
+        "value": "Complete"
+      }
+    ],
+    "semi_rework_status_filter": [
+      {
+        "title": "ALL",
+        "value": ""
+      },
+      {
+        "title": "Scarf",
+        "value": "Scarf"
+      },
+      {
+        "title": "Complete",
+        "value": "Complete"
+      }
+    ],
+    "result_orientation": [
+      {
+        "title": "Longitudinal",
+        "value": "L"
+      },
+      {
+        "title": "Transverse",
+        "value": "T"
+      },
+      {
+        "title": "Core",
+        "value": "C"
+      },
+      {
+        "title": "Through Thickness",
+        "value": "Z"
+      }
+    ],
+    "result_standard": [
+      {
+        "title": "ASTM",
+        "value": "ASTM"
+      },
+      {
+        "title": "BSEN",
+        "value": "BSEN"
+      }
+    ],
+    "spec_units": [
+      {
+        "title": "T-Tonnes",
+        "value": "T"
+      },
+      {
+        "title": "K-Kgm per square mm",
+        "value": "K"
+      },
+      {
+        "title": "N-Newtons per square mm (equivalent to MPa)",
+        "value": "N"
+      },
+      {
+        "title": "L-Pounds per square inch (ksi)",
+        "value": "L"
+      },
+      {
+        "title": "H-Hectobars",
+        "value": "H"
+      }
+    ],
+    "allocate_reason": [
+      {
+        "title": "A",
+        "value": "A"
+      },
+      {
+        "title": "B",
+        "value": "B"
+      }
+    ],
+    "rolling_status": [
+      {
+        "title": "Open",
+        "value": "Open"
+      },
+      {
+        "title": "Complete",
+        "value": "Complete"
+      },
+      {
+        "title": "Closed",
+        "value": "Closed"
+      },
+      {
+        "title": "Blocked",
+        "value": "Blocked"
+      },
+      {
+        "title": "Trial",
+        "value": "Trial"
+      },
+      {
+        "title": "Bloom",
+        "value": "Bloom"
+      },
+      {
+        "title": "Del",
+        "value": "Del"
+      },
+      {
+        "title": "Trial Del",
+        "value": "trial_del"
+      },
+      {
+        "title": "Etc",
+        "value": "Etc"
+      },
+      {
+        "title": "GI Blocked",
+        "value": "gi_blocked"
+      },
+      {
+        "title": "del",
+        "value": "del"
+      },
+      {
+        "title": "Planning Complete",
+        "value": "planning_complete"
+      }
+    ],
+    "elong_guage_code": [
+      {
+        "title": "5.65 ROOT CSA",
+        "value": "5_56_root_csa"
+      },
+      {
+        "title": "200 MM",
+        "value": "200_mm"
+      },
+      {
+        "title": "50 MM",
+        "value": "50_mm"
+      },
+      {
+        "title": "8 IN",
+        "value": "8_in"
+      },
+      {
+        "title": "2 IN",
+        "value": "2_in"
+      },
+      {
+        "title": "80 MM",
+        "value": "80_mm"
+      }
+    ],
+    "spec_other_quality_code": [
+      {
+        "title": "A",
+        "value": "A"
+      },
+      {
+        "title": "B",
+        "value": "B"
+      }
+    ],
+    "spec_version_status": [
+      {
+        "title": "Released",
+        "value": "R"
+      },
+      {
+        "title": "Archived",
+        "value": "A"
+      },
+      {
+        "title": "Draft",
+        "value": "D"
+      }
+    ],
+    "allocation_status": [
+      {
+        "title": "Prime Stock",
+        "value": "allocate"
+      },
+      {
+        "title": "Free Stock",
+        "value": "free_stock"
+      },
+      {
+        "title": "Scrap",
+        "value": "scrap"
+      }
+    ],
+    "test_sample_status": [
+      {
+        "title": "Action, waiting to get the sample",
+        "value": "A"
+      },
+      {
+        "title": "Collection waiting",
+        "value": "C"
+      },
+      {
+        "title": "Recieved",
+        "value": "R"
+      },
+      {
+        "title": "Testing, the test has started",
+        "value": "T"
+      },
+      {
+        "title": "Deleted",
+        "value": "D"
+      }
+    ],
+    "test_sample_reason_code": [
+      {
+        "title": "UG - upgrade",
+        "value": "UG"
+      },
+      {
+        "title": "TQ - test requality",
+        "value": "TQ"
+      },
+      {
+        "title": "RT - retest",
+        "value": "RT"
+      },
+      {
+        "title": "MT - miss test",
+        "value": "MT"
+      },
+      {
+        "title": "QM - Quality mixed (Send PA Request To Lims)",
+        "value": "QM"
+      },
+      {
+        "title": "PA - product analysis",
+        "value": "PA"
+      },
+      {
+        "title": "OI - Outside inspection ",
+        "value": "OI"
+      }
+    ],
+    "test_sample_source#tbm": [
+      {
+        "title": "Manual Request",
+        "value": "manual"
+      },
+      {
+        "title": "TE13-Allocate",
+        "value": "TE13-Allocate"
+      },
+      {
+        "title": "TD17-Reserve",
+        "value": "TD17-Reserve"
+      },
+      {
+        "title": "TF84-Part-Sawn",
+        "value": "TF84-Part-Sawn"
+      },
+      {
+        "title": "PCC",
+        "value": "PCC"
+      }
+    ],
+    "test_sample_source#srsm": [
+      {
+        "title": "Manual Request",
+        "value": "manual"
+      },
+      {
+        "title": "PCC",
+        "value": "PCC"
+      }
+    ],
+    "test_sample_info": [
+      {
+        "title": "F-500mm Flange",
+        "value": "F-500"
+      },
+      {
+        "title": "W-500mm Web",
+        "value": "W-500"
+      },
+      {
+        "title": "F-200mm Flange",
+        "value": "F-200"
+      },
+      {
+        "title": "W-200mm Web",
+        "value": "W-200"
+      },
+      {
+        "title": "F-50mm Corner Piece",
+        "value": "F-50"
+      },
+      {
+        "title": "FFW-500mm Full Cross Section",
+        "value": "FFW-500"
+      },
+      {
+        "title": "FFW-200mm Full Cross Section",
+        "value": "FFW-200"
+      },
+      {
+        "title": "FW-500mm Flange with 75mm web attached",
+        "value": "FW-500"
+      },
+      {
+        "title": "FW-200mm Flange with 75mm web attached",
+        "value": "FW-200"
+      },
+      {
+        "title": "FF-500mm Double Flange",
+        "value": "FF"
+      }
+    ],
+    "reserve_status": [
+      {
+        "title": "Reserved",
+        "value": "reserved"
+      }
+    ],
+    "completion_status": [
+      {
+        "title": "All",
+        "value": ""
+      },
+      {
+        "title": "Completed",
+        "value": "completed"
+      },
+      {
+        "title": "Incomplete",
+        "value": "incomplete"
+      }
+    ],
+    "amend_status": [
+      {
+        "title": "All",
+        "value": ""
+      },
+      {
+        "title": "Amend",
+        "value": "amend"
+      }
+    ],
+    "finished_product_history_action": [
+      {
+        "title": "hold",
+        "value": "hold"
+      },
+      {
+        "title": "unhold",
+        "value": "unhold"
+      },
+      {
+        "title": "rework",
+        "value": "rework"
+      },
+      {
+        "title": "rework_complete",
+        "value": "rework_complete"
+      },
+      {
+        "title": "move",
+        "value": "move"
+      },
+      {
+        "title": "create",
+        "value": "create"
+      },
+      {
+        "title": "allocate",
+        "value": "allocate"
+      },
+      {
+        "title": "mult",
+        "value": "mult"
+      },
+      {
+        "title": "mult_complete",
+        "value": "mult_complete"
+      },
+      {
+        "title": "regrade",
+        "value": "regrade"
+      },
+      {
+        "title": "reserve",
+        "value": "reserve"
+      },
+      {
+        "title": "delete",
+        "value": "delete"
+      },
+      {
+        "title": "edit",
+        "value": "edit"
+      },
+      {
+        "title": "return",
+        "value": "return"
+      },
+      {
+        "title": "retrieve",
+        "value": "retrieve"
+      },
+      {
+        "title": "load_tip",
+        "value": "load_tip"
+      },
+      {
+        "title": "load_create",
+        "value": "load_create"
+      },
+      {
+        "title": "advice_tip",
+        "value": "advice_tip"
+      },
+      {
+        "title": "advice_create",
+        "value": "advice_create"
+      },
+      {
+        "title": "advice_move",
+        "value": "advice_move"
+      },
+      {
+        "title": "advice_return",
+        "value": "advice_return"
+      }
+    ],
+    "transport_type": [
+      {
+        "title": "A",
+        "value": "A"
+      },
+      {
+        "title": "B",
+        "value": "B"
+      }
+    ],
+    "load_status": [
+      {
+        "title": "All",
+        "value": ""
+      },
+      {
+        "title": "Loaded",
+        "value": "Loaded"
+      },
+      {
+        "title": "Not Loaded",
+        "value": "Not Loaded"
+      }
+    ],
+    "finished_load_status": [
+      {
+        "title": "Tipped",
+        "value": "Tipped"
+      },
+      {
+        "title": "Carry Out",
+        "value": "Carry Out"
+      },
+      {
+        "title": "Created",
+        "value": "Created"
+      }
+    ],
+    "finished_load_pilling_bogie": [
+      {
+        "title": "MC01",
+        "value": "MC01"
+      },
+      {
+        "title": "MC02",
+        "value": "MC02"
+      },
+      {
+        "title": "MC03",
+        "value": "MC03"
+      },
+      {
+        "title": "MC04",
+        "value": "MC04"
+      },
+      {
+        "title": "MC05",
+        "value": "MC05"
+      },
+      {
+        "title": "MC06",
+        "value": "MC06"
+      },
+      {
+        "title": "MC07",
+        "value": "MC07"
+      },
+      {
+        "title": "MC08",
+        "value": "MC08"
+      }
+    ],
+    "finished_advice_status": [
+      {
+        "title": "All",
+        "value": ""
+      },
+      {
+        "title": "Adviced",
+        "value": "Adviced"
+      },
+      {
+        "title": "Not Adviced",
+        "value": "Not Adviced"
+      }
+    ],
+    "tensile_orientation": [
+      {
+        "title": "L-Longitudinal",
+        "value": "L"
+      },
+      {
+        "title": "T-Transverse",
+        "value": "T"
+      }
+    ],
+    "business_type": [
+      {
+        "title": "BWS",
+        "value": "bws"
+      },
+      {
+        "title": "Roster",
+        "value": "roster"
+      },
+      {
+        "title": "Internal",
+        "value": "internal"
+      },
+      {
+        "title": "Scrap",
+        "value": "scrap"
+      },
+      {
+        "title": "Service Center",
+        "value": "service_center"
+      }
+    ],
+    "finished_product_business_type": [
+      {
+        "title": "BWS",
+        "value": "bws"
+      },
+      {
+        "title": "Roster",
+        "value": "roster"
+      },
+      {
+        "title": "Internal",
+        "value": "Internal"
+      },
+      {
+        "title": "Scrap",
+        "value": "scrap"
+      }
+    ],
+    "advice_business_type": [
+      {
+        "title": "BWS",
+        "value": "bws"
+      },
+      {
+        "title": "Roster",
+        "value": "roster"
+      },
+      {
+        "title": "Internal",
+        "value": "internal"
+      }
+    ],
+    "semi_history_action": [
+      {
+        "title": "move",
+        "value": "move"
+      },
+      {
+        "title": "block",
+        "value": "block"
+      },
+      {
+        "title": "unblock",
+        "value": "unblock"
+      },
+      {
+        "title": "update",
+        "value": "update"
+      },
+      {
+        "title": "delete",
+        "value": "delete"
+      },
+      {
+        "title": "create",
+        "value": "create"
+      },
+      {
+        "title": "rework",
+        "value": "rework"
+      },
+      {
+        "title": "rework_complete",
+        "value": "rework_complete"
+      },
+      {
+        "title": "defect",
+        "value": "defect"
+      }
+    ],
+    "semi_scrap": [
+      {
+        "title": "All",
+        "value": ""
+      },
+      {
+        "title": "Scrapped",
+        "value": "Scrapped"
+      },
+      {
+        "title": "Not Scrapped",
+        "value": "Not Scrapped"
+      }
+    ],
+    "type_of_order": [
+      {
+        "title": "87 Sales Order",
+        "value": "87"
+      },
+      {
+        "title": "274 Planned Order",
+        "value": "274"
+      },
+      {
+        "title": "184 Stock Transfer",
+        "value": "184"
+      }
+    ],
+    "cut_sequence_plan_saw_route": [
+      {
+        "title": "East",
+        "value": "E"
+      },
+      {
+        "title": "West",
+        "value": "W"
+      },
+      {
+        "title": "Secondary",
+        "value": "S"
+      }
+    ],
+    "spec_type_new": [
+      {
+        "title": "TBM Section",
+        "value": "tbm_section"
+      },
+      {
+        "title": "SRSM Section",
+        "value": "srsm_section"
+      },
+      {
+        "title": "Rail",
+        "value": "rail"
+      },
+      {
+        "title": "Others",
+        "value": "others"
+      }
+    ],
+    "spec_standard": [
+      {
+        "title": "2-ASTM",
+        "value": "2"
+      },
+      {
+        "title": "1-BSEN",
+        "value": "1"
+      }
+    ],
+    "advice_status": [
+      {
+        "title": "All",
+        "value": ""
+      },
+      {
+        "title": "EnRoute",
+        "value": "enroute"
+      },
+      {
+        "title": "Tipped",
+        "value": "tipped"
+      },
+      {
+        "title": "Cancelled",
+        "value": "cancelled"
+      },
+      {
+        "title": "Unload",
+        "value": "unload"
+      },
+      {
+        "title": "Deload",
+        "value": "deload"
+      },
+      {
+        "title": "Return",
+        "value": "return"
+      }
+    ],
+    "advice_held": [
+      {
+        "title": "All",
+        "value": ""
+      },
+      {
+        "title": "Q",
+        "value": "Q"
+      }
+    ],
+    "own_state": [
+      {
+        "title": "Store",
+        "value": "store"
+      },
+      {
+        "title": "Mill",
+        "value": "mill"
+      }
+    ],
+    "transport_history_action": [
+      {
+        "title": "create",
+        "value": "create"
+      },
+      {
+        "title": "onload",
+        "value": "onload"
+      },
+      {
+        "title": "deload",
+        "value": "deload"
+      },
+      {
+        "title": "edit",
+        "value": "edit"
+      },
+      {
+        "title": "delete",
+        "value": "delete"
+      }
+    ],
+    "archieved_status": [
+      {
+        "title": "Archieved",
+        "value": "Archieved"
+      },
+      {
+        "title": "Current",
+        "value": "Current"
+      }
+    ],
+    "area_type": [
+      {
+        "title": "s-semi",
+        "value": "s-semi"
+      },
+      {
+        "title": "f-finished_product",
+        "value": "f-finished_product"
+      }
+    ],
+    "free_stock_status": [
+      {
+        "title": "Order-Entry-Error",
+        "value": "Order-Entry-Error"
+      },
+      {
+        "title": "Customer-Cancel",
+        "value": "Customer-Cancel"
+      },
+      {
+        "title": "Others",
+        "value": "Others"
+      },
+      {
+        "title": "BT-BULGED TOES",
+        "value": "BT-BULGED TOES"
+      },
+      {
+        "title": "BW-BUCKLED",
+        "value": "BW-BUCKLED"
+      },
+      {
+        "title": "CE-COLD CUTTING ERROR",
+        "value": "CE-COLD CUTTING ERROR"
+      },
+      {
+        "title": "CO-COBBLE",
+        "value": "CO-COBBLE"
+      },
+      {
+        "title": "CR-CRACKING",
+        "value": "CR-CRACKING"
+      },
+      {
+        "title": "CS-CUT SHORT",
+        "value": "CS-CUT SHORT"
+      },
+      {
+        "title": "DI-DISHED WEB",
+        "value": "DI-DISHED WEB"
+      },
+      {
+        "title": "DP-DIPPED ENDS",
+        "value": "DP-DIPPED ENDS"
+      },
+      {
+        "title": "DS-DELAYED AT SAWS",
+        "value": "DS-DELAYED AT SAWS"
+      },
+      {
+        "title": "EK-END KINK",
+        "value": "EK-END KINK"
+      },
+      {
+        "title": "EX-EXCESS LENGTH",
+        "value": "EX-EXCESS LENGTH"
+      },
+      {
+        "title": "FD-FORKLIFT DAMAGE",
+        "value": "FD-FORKLIFT DAMAGE"
+      },
+      {
+        "title": "FQ-FAILED QUALITY",
+        "value": "FQ-FAILED QUALITY"
+      },
+      {
+        "title": "FS-FRONT END SCRAP",
+        "value": "FS-FRONT END SCRAP"
+      },
+      {
+        "title": "GD-GAG PRESS DAMAGE",
+        "value": "GD-GAG PRESS DAMAGE"
+      },
+      {
+        "title": "GM-GUIDE MARK",
+        "value": "GM-GUIDE MARK"
+      },
+      {
+        "title": "HK-HOOKED",
+        "value": "HK-HOOKED"
+      },
+      {
+        "title": "KK-MIDDLE KINK",
+        "value": "KK-MIDDLE KINK"
+      },
+      {
+        "title": "LC-LAST CUT ERROR",
+        "value": "LC-LAST CUT ERROR"
+      },
+      {
+        "title": "BAL-BAR BALANCE",
+        "value": "BAL-BAR BALANCE"
+      },
+      {
+        "title": "BES-BACK END SCRAP AT SAWS",
+        "value": "BES-BACK END SCRAP AT SAWS"
+      },
+      {
+        "title": "BWS-BWS SALE",
+        "value": "BWS-BWS SALE"
+      },
+      {
+        "title": "CCA-CHANGE OF CUSTOMER ALLOCATION",
+        "value": "CCA-CHANGE OF CUSTOMER ALLOCATION"
+      },
+      {
+        "title": "CHA-CHAMFER ON CHANNELS",
+        "value": "CHA-CHAMFER ON CHANNELS"
+      },
+      {
+        "title": "CNO-CANCELLED ORDER",
+        "value": "CNO-CANCELLED ORDER"
+      },
+      {
+        "title": "COE-COMMERCIAL ORDER ERROR",
+        "value": "COE-COMMERCIAL ORDER ERROR"
+      },
+      {
+        "title": "DAC-DAC TO UNALLOCATED",
+        "value": "DAC-DAC TO UNALLOCATED"
+      },
+      {
+        "title": "FIN-FIN ON CHANNELS",
+        "value": "FIN-FIN ON CHANNELS"
+      },
+      {
+        "title": "LAB-LOST BAR",
+        "value": "LAB-LOST BAR"
+      },
+      {
+        "title": "MTS-MADE TO STOCK",
+        "value": "MTS-MADE TO STOCK"
+      },
+      {
+        "title": "OEE-ORDER ENTRY ERROR",
+        "value": "OEE-ORDER ENTRY ERROR"
+      },
+      {
+        "title": "OSA-ONE STOCK ALLOCATION",
+        "value": "OSA-ONE STOCK ALLOCATION"
+      },
+      {
+        "title": "OVB-OVER BAR",
+        "value": "OVB-OVER BAR"
+      },
+      {
+        "title": "RAT-REJECTED AFTER TESTING",
+        "value": "RAT-REJECTED AFTER TESTING"
+      },
+      {
+        "title": "RCR-REJECTED FOR ROOT CRACKING",
+        "value": "RCR-REJECTED FOR ROOT CRACKING"
+      },
+      {
+        "title": "RNP-REPAIR NOT POSSIBLE",
+        "value": "RNP-REPAIR NOT POSSIBLE"
+      },
+      {
+        "title": "SCE-SCRAP CUTTING EVENT",
+        "value": "SCE-SCRAP CUTTING EVENT"
+      },
+      {
+        "title": "SER-SCRAP IN ERROR",
+        "value": "SER-SCRAP IN ERROR"
+      },
+      {
+        "title": "STS-MANAGEMENT DOWNGRADE",
+        "value": "STS-MANAGEMENT DOWNGRADE"
+      },
+      {
+        "title": "TRM-TRIAL ROLLING MATERIAL",
+        "value": "TRM-TRIAL ROLLING MATERIAL"
+      },
+      {
+        "title": "UST-REJECTED FOR HYDROGEN",
+        "value": "UST-REJECTED FOR HYDROGEN"
+      },
+      {
+        "title": "UTD-UNABLE TO DELIVER",
+        "value": "UTD-UNABLE TO DELIVER"
+      },
+      {
+        "title": "WID-WAVE IN THE DEEP",
+        "value": "WID-WAVE IN THE DEEP"
+      },
+      {
+        "title": "AR-AMMENDING ORDER",
+        "value": "AR-AMMENDING ORDER"
+      },
+      {
+        "title": "BT-BULGED TOES",
+        "value": "BT-BULGED TOES"
+      },
+      {
+        "title": "BW-BUCKLED",
+        "value": "BW-BUCKLED"
+      },
+      {
+        "title": "CE-COLD CUTTING ERROR",
+        "value": "CE-COLD CUTTING ERROR"
+      },
+      {
+        "title": "CO-COBBLE",
+        "value": "CO-COBBLE"
+      },
+      {
+        "title": "CR-CRACKING",
+        "value": "CR-CRACKING"
+      },
+      {
+        "title": "CS-CUT SHORT",
+        "value": "CS-CUT SHORT"
+      },
+      {
+        "title": "DI-DISHED WEB",
+        "value": "DI-DISHED WEB"
+      },
+      {
+        "title": "DP-DIPPED ENDS",
+        "value": "DP-DIPPED ENDS"
+      },
+      {
+        "title": "DS-DELAYED AT SAWS",
+        "value": "DS-DELAYED AT SAWS"
+      },
+      {
+        "title": "EK-END KINK",
+        "value": "EK-END KINK"
+      },
+      {
+        "title": "EX-EXCESS LENGTH",
+        "value": "EX-EXCESS LENGTH"
+      },
+      {
+        "title": "FD-FORKLIFT DAMAGE",
+        "value": "FD-FORKLIFT DAMAGE"
+      },
+      {
+        "title": "FQ-FAILED QUALITY",
+        "value": "FQ-FAILED QUALITY"
+      },
+      {
+        "title": "FS-FRONT END SCRAP",
+        "value": "FS-FRONT END SCRAP"
+      },
+      {
+        "title": "GD-GAG PRESS DAMAGE",
+        "value": "GD-GAG PRESS DAMAGE"
+      },
+      {
+        "title": "GM-GUIDE MARK",
+        "value": "GM-GUIDE MARK"
+      },
+      {
+        "title": "HK-HOOKED",
+        "value": "HK-HOOKED"
+      },
+      {
+        "title": "KK-MIDDLE KINK",
+        "value": "KK-MIDDLE KINK"
+      },
+      {
+        "title": "LC-LAST CUT ERROR",
+        "value": "LC-LAST CUT ERROR"
+      },
+      {
+        "title": "LF-LIFT",
+        "value": "LF-LIFT"
+      },
+      {
+        "title": "LP-LAPPED",
+        "value": "LP-LAPPED"
+      },
+      {
+        "title": "ME-MILL ENGINEERING",
+        "value": "ME-MILL ENGINEERING"
+      },
+      {
+        "title": "NB-NO BRAND",
+        "value": "NB-NO BRAND"
+      },
+      {
+        "title": "NS-CANNOT STRAIGHTEN",
+        "value": "NS-CANNOT STRAIGHTEN"
+      },
+      {
+        "title": "OD-OUT OF DIMENSION",
+        "value": "OD-OUT OF DIMENSION"
+      },
+      {
+        "title": "OS-OFF SQUARE",
+        "value": "OS-OFF SQUARE"
+      },
+      {
+        "title": "PD-PRIMARY BANK DAMAGE",
+        "value": "PD-PRIMARY BANK DAMAGE"
+      },
+      {
+        "title": "PI-PITTING",
+        "value": "PI-PITTING"
+      },
+      {
+        "title": "PO-PIECE OUT",
+        "value": "PO-PIECE OUT"
+      },
+      {
+        "title": "PW-PIN WIRE",
+        "value": "PW-PIN WIRE"
+      },
+      {
+        "title": "RD-RSM DAMAGE",
+        "value": "RD-RSM DAMAGE"
+      },
+      {
+        "title": "RT-TEST SAMPLE TAKEN",
+        "value": "RT-TEST SAMPLE TAKEN"
+      },
+      {
+        "title": "RW-ROLL WEAR",
+        "value": "RW-ROLL WEAR"
+      },
+      {
+        "title": "SD-SECONDARY BANK DAMAG",
+        "value": "SD-SECONDARY BANK DAMAG"
+      },
+      {
+        "title": "SM-STEEL DEFECT",
+        "value": "SM-STEEL DEFECT"
+      },
+      {
+        "title": "TB-THERMAL BUCKLE",
+        "value": "TB-THERMAL BUCKLE"
+      },
+      {
+        "title": "TW-TWISTING",
+        "value": "TW-TWISTING"
+      },
+      {
+        "title": "UC-UNDERCROPPING",
+        "value": "UC-UNDERCROPPING"
+      },
+      {
+        "title": "UF-UNDERFILLED FLANGES",
+        "value": "UF-UNDERFILLED FLANGES"
+      },
+      {
+        "title": "WA-COLD SAW WASTE",
+        "value": "WA-COLD SAW WASTE"
+      },
+      {
+        "title": "WD-WIPEDOWN",
+        "value": "WD-WIPEDOWN"
+      },
+      {
+        "title": "WF-WAVY FLANGE",
+        "value": "WF-WAVY FLANGE"
+      },
+      {
+        "title": "WS-WEB STRETCH",
+        "value": "WS-WEB STRETCH"
+      },
+      {
+        "title": "WT-WAVY TOES",
+        "value": "WT-WAVY TOES"
+      },
+      {
+        "title": "WV-WAVE IN THE DEEP",
+        "value": "WV-WAVE IN THE DEEP"
+      }
+    ],
+    "advice_type": [
+      {
+        "title": "Transfer",
+        "value": "transfer"
+      },
+      {
+        "title": "Scrap",
+        "value": "scrap"
+      },
+      {
+        "title": "Mult",
+        "value": "mult"
+      },
+      {
+        "title": "Rework",
+        "value": "rework"
+      }
+    ],
+    "spec_text_type": [
+      {
+        "title": "G",
+        "value": "G"
+      },
+      {
+        "title": "S",
+        "value": "S"
+      }
+    ],
+    "finished_product_status": [
+      {
+        "title": "created",
+        "value": "created"
+      },
+      {
+        "title": "despatched",
+        "value": "despatched"
+      },
+      {
+        "title": "archived",
+        "value": "archived"
+      },
+      {
+        "title": "returned",
+        "value": "returned"
+      },
+      {
+        "title": "tipped",
+        "value": "tipped"
+      },
+      {
+        "title": "scrapped",
+        "value": "scrapped"
+      }
+    ],
+    "exist_flag": [
+      {
+        "title": "Y",
+        "value": "Y"
+      },
+      {
+        "title": "N",
+        "value": "N"
+      }
+    ],
+    "cover_status": [
+      {
+        "title": "W-Wating",
+        "value": "W"
+      },
+      {
+        "title": "P-Pass",
+        "value": "P"
+      },
+      {
+        "title": "F-Failed",
+        "value": "F"
+      }
+    ],
+    "business_type#tbm": [
+      {
+        "title": "BWS",
+        "value": "bws"
+      },
+      {
+        "title": "Roster",
+        "value": "roster"
+      },
+      {
+        "title": "Internal",
+        "value": "internal"
+      },
+      {
+        "title": "Scrap",
+        "value": "scrap"
+      },
+      {
+        "title": "Service_Center",
+        "value": "service_center"
+      }
+    ],
+    "business_type#srsm": [
+      {
+        "title": "BWS",
+        "value": "bws"
+      },
+      {
+        "title": "Internal",
+        "value": "internal"
+      },
+      {
+        "title": "Scrap",
+        "value": "scrap"
+      }
+    ],
+    "business_type#default": [
+      {
+        "title": "Internal",
+        "value": "internal"
+      }
+    ],
+    "quality_require_dressing": [
+      {
+        "title": "Y",
+        "value": "Y"
+      },
+      {
+        "title": "N",
+        "value": "N"
+      }
+    ],
+    "transport_status": [
+      {
+        "title": "OnLoad",
+        "value": "onload"
+      },
+      {
+        "title": "DeLoad",
+        "value": "deload"
+      }
+    ],
+    "advice_mult_done": [
+      {
+        "title": "Waiting",
+        "value": "waiting"
+      },
+      {
+        "title": "Done",
+        "value": "done"
+      },
+      {
+        "title": "NA",
+        "value": "na"
+      }
+    ],
+    "semi_load_location": [
+      {
+        "title": "C4STOCK",
+        "value": "C4STOCK"
+      },
+      {
+        "title": "Default Location",
+        "value": "Default Location"
+      },
+      {
+        "title": "DESPATCHED",
+        "value": "DESPATCHED"
+      },
+      {
+        "title": "SCRAPPED",
+        "value": "SCRAPPED"
+      }
+    ],
+    "finished_product_type": [
+      {
+        "title": "Piece",
+        "value": "piece"
+      },
+      {
+        "title": "Bundle",
+        "value": "bundlen"
+      }
+    ],
+    "test_history_action_type": [
+      {
+        "title": "create",
+        "value": "create"
+      },
+      {
+        "title": "modify",
+        "value": "modify"
+      },
+      {
+        "title": "delete",
+        "value": "delete"
+      }
+    ],
+    "test_history_test_type": [
+      {
+        "title": "Impact",
+        "value": "impact"
+      },
+      {
+        "title": "Tensile",
+        "value": "tensile"
+      },
+      {
+        "title": "Bend",
+        "value": "bend"
+      },
+      {
+        "title": "Cleanness",
+        "value": "cleanness"
+      },
+      {
+        "title": "Decarburisation",
+        "value": "decarburisation"
+      },
+      {
+        "title": "Hardness",
+        "value": "hardness"
+      },
+      {
+        "title": "Hydrogen",
+        "value": "hydrogen"
+      },
+      {
+        "title": "Product Analysis",
+        "value": "prodan"
+      },
+      {
+        "title": "Resistivity",
+        "value": "resistivity"
+      },
+      {
+        "title": "Sulphur",
+        "value": "sulphur"
+      }
+    ],
+    "semi_load_status": [
+      {
+        "title": "In Transit",
+        "value": "In Transit"
+      },
+      {
+        "title": "Created",
+        "value": "created"
+      },
+      {
+        "title": "DispatchCancel",
+        "value": "DispatchCancel"
+      },
+      {
+        "title": "Tip",
+        "value": "Tip"
+      },
+      {
+        "title": "Received",
+        "value": "received"
+      }
+    ],
+    "test_status": [
+      {
+        "title": "Wating",
+        "value": "A"
+      },
+      {
+        "title": "Tested",
+        "value": "T"
+      },
+      {
+        "title": "Retested",
+        "value": "RT"
+      },
+      {
+        "title": "Updated",
+        "value": "U"
+      }
+    ],
+    "test_jominy_type": [
+      {
+        "title": "IMPERIAL",
+        "value": "imperial"
+      },
+      {
+        "title": "METRIC",
+        "value": "metric"
+      },
+      {
+        "title": "CATERPILLAR",
+        "value": "caterpillar"
+      }
+    ],
+    "pass_status": [
+      {
+        "title": "Pass",
+        "value": "P"
+      },
+      {
+        "title": "Fail",
+        "value": "F"
+      }
+    ],
+    "spec_suspended": [
+      {
+        "title": "Y",
+        "value": "Y"
+      },
+      {
+        "title": "N",
+        "value": "N"
+      }
+    ],
+    "test_job_state": [
+      {
+        "title": "O-Ongoing",
+        "value": "O"
+      },
+      {
+        "title": "C-Completed",
+        "value": "C"
+      }
+    ],
+    "test_job_job_category": [
+      {
+        "title": "R-Regular",
+        "value": "R"
+      },
+      {
+        "title": "O-Other",
+        "value": "O"
+      }
+    ],
+    "test_sulphur_d_val": [
+      {
+        "title": "D1",
+        "value": "D1"
+      },
+      {
+        "title": "D2",
+        "value": "D2"
+      },
+      {
+        "title": "D3",
+        "value": "D3"
+      },
+      {
+        "title": "D4",
+        "value": "D4"
+      },
+      {
+        "title": "D5",
+        "value": "D5"
+      },
+      {
+        "title": "D6",
+        "value": "D6"
+      },
+      {
+        "title": "D7",
+        "value": "D7"
+      },
+      {
+        "title": "D8",
+        "value": "D8"
+      },
+      {
+        "title": "D9",
+        "value": "D9"
+      },
+      {
+        "title": "D10",
+        "value": "D10"
+      },
+      {
+        "title": "D11",
+        "value": "D11"
+      },
+      {
+        "title": "D12",
+        "value": "D12"
+      }
+    ],
+    "cut_sequence_destination": [
+      {
+        "title": "ADC",
+        "value": "ADC"
+      },
+      {
+        "title": "PADC",
+        "value": "PADC"
+      }
+    ],
+    "shift_area_code": [{
+          "value": "01",
+          "title": "All Mill"
+      },
+      {
+          "value": "02",
+          "title": "Any OHC"
+      },
+      {
+          "value": "03",
+          "title": "Walking Beam Furnace"
+      },
+      {
+          "value": "04",
+          "title": "South BSB & Grid"
+      },
+      {
+          "value": "05",
+          "title": "North BSB & Grid"
+      },
+      {
+          "value": "06",
+          "title": "Furnace 1"
+      },
+      {
+          "value": "07",
+          "title": "Furnace 2"
+      },
+      {
+          "value": "08",
+          "title": "Descaling"
+      },
+      {
+          "value": "09",
+          "title": "Roughing Mill"
+      },
+      {
+          "value": "10",
+          "title": "Inter Mill"
+      },
+      {
+          "value": "11",
+          "title": "Stand Prep"
+      },
+      {
+          "value": "12",
+          "title": "Roll Shop"
+      },
+      {
+          "value": "13",
+          "title": "F Mill Area"
+      },
+      {
+          "value": "14",
+          "title": "F Mill Stand"
+      },
+      {
+          "value": "15",
+          "title": "Flying Shear"
+      },
+      {
+          "value": "16",
+          "title": "BPG/ Vision Sys"
+      },
+      {
+          "value": "17",
+          "title": "Section Cooling Bank"
+      },
+      {
+          "value": "18",
+          "title": "QC Area"
+      },
+      {
+          "value": "19",
+          "title": "Water Treatment"
+      },
+      {
+          "value": "20",
+          "title": "Roll Pass Lube"
+      },
+      {
+          "value": "21",
+          "title": "Any OHC"
+      },
+      {
+          "value": "22",
+          "title": "Sect Cool Bank"
+      },
+      {
+          "value": "23",
+          "title": "Sections RSM "
+      },
+      {
+          "value": "24",
+          "title": "Grouping Tables"
+      },
+      {
+          "value": "25",
+          "title": "Cold Saws"
+      },
+      {
+          "value": "26",
+          "title": "Pilers"
+      },
+      {
+          "value": "27",
+          "title": "Tie Wires/Strap"
+      },
+      {
+          "value": "28",
+          "title": "Chain Transfers"
+      },
+      {
+          "value": "29",
+          "title": "Secondary Saw"
+      },
+      {
+          "value": "30",
+          "title": "Section Despatch"
+      },
+      {
+          "value": "31",
+          "title": "ADC"
+      },
+      {
+          "value": "32",
+          "title": "RailStamp/Vision"
+      },
+      {
+          "value": "33",
+          "title": "Rail Saw/Sample"
+      },
+      {
+          "value": "34",
+          "title": "Rail Cool Bank"
+      },
+      {
+          "value": "35",
+          "title": "Rail Manipulator"
+      },
+      {
+          "value": "36",
+          "title": "Rail RSM"
+      },
+      {
+          "value": "37",
+          "title": "Rail Buffer Bank"
+      },
+      {
+          "value": "38",
+          "title": "Rail Gantrys"
+      },
+      {
+          "value": "39",
+          "title": "Rail Switch"
+      },
+      {
+          "value": "40",
+          "title": "Rail Despatch "
+      }
+    ],
+      "shift_delay_code": [
+      {
+          "value": "01",
+          "title": "Steel Supply/ID"
+      },
+      {
+          "value": "02",
+          "title": "Gas Supply"
+      },
+      {
+          "value": "03",
+          "title": "Water Supply"
+      },
+      {
+          "value": "04",
+          "title": "Power Control"
+      },
+      {
+          "value": "05",
+          "title": "Down Time"
+      },
+      {
+          "value": "06",
+          "title": "Heat Capacity"
+      },
+      {
+          "value": "07",
+          "title": "Full Roll Change"
+      },
+      {
+          "value": "08",
+          "title": "Rollwear"
+      },
+      {
+          "value": "09",
+          "title": "Pass/Size Change"
+      },
+      {
+          "value": "10",
+          "title": "Overload/Trip"
+      },
+      {
+          "value": "11",
+          "title": "Fly Shear Blade"
+      },
+      {
+          "value": "12",
+          "title": "Tech Sampling"
+      },
+      {
+          "value": "13",
+          "title": "Roll Set Up"
+      },
+      {
+          "value": "14",
+          "title": "Tackle Adjust "
+      },
+      {
+          "value": "15",
+          "title": "Scratches Check"
+      },
+      {
+          "value": "16",
+          "title": "Stand Build Up"
+      },
+      {
+          "value": "17",
+          "title": "Plant Damage"
+      },
+      {
+          "value": "18",
+          "title": "Broken Roll"
+      },
+      {
+          "value": "19",
+          "title": "Cobble"
+      },
+      {
+          "value": "20",
+          "title": "Manipulation"
+      },
+      {
+          "value": "21",
+          "title": "Policy"
+      },
+      {
+          "value": "22",
+          "title": "Checking Quality"
+      },
+      {
+          "value": "23",
+          "title": "Fire"
+      },
+      {
+          "value": "24",
+          "title": "Trial Rollings "
+      },
+      {
+          "value": "25",
+          "title": "Order Book"
+      },
+      {
+          "value": "26",
+          "title": "Computers- Cap"
+      },
+      {
+          "value": "27",
+          "title": "Computers- VAX"
+      },
+      {
+          "value": "28",
+          "title": "RSM Set Up"
+      },
+      {
+          "value": "29",
+          "title": "Cobble RSM"
+      },
+      {
+          "value": "30",
+          "title": "Saw Blade Change"
+      },
+      {
+          "value": "31",
+          "title": "Scrap Pan Change"
+      },
+      {
+          "value": "32",
+          "title": "Congestion"
+      },
+      {
+          "value": "33",
+          "title": "Traffic"
+      },
+      {
+          "value": "34",
+          "title": "Manning "
+      },
+      {
+          "value": "35",
+          "title": "OOT Material"
+      },
+      {
+          "value": "36",
+          "title": "No label"
+      },
+      {
+          "value": "37",
+          "title": "Scale Build Up"
+      },
+      {
+          "value": "38",
+          "title": "Shearing "
+      },
+      {
+          "value": "39",
+          "title": "Mech Fail"
+      },
+      {
+          "value": "40",
+          "title": "Control Failure "
+      }
+    ]
+  },
+  "default_worker_flex_form_data": {
+    "orderItem": {
+      "CI71": {
+        "fields": [
+          "product_type_id",
+          "rolling_code"
+        ],
+        "query": {},
+        "column": [
+          "line_item_code",
+          "product_type.code",
+          "rolling_code",
+          "rolling.programmed_date",
+          "quantity",
+          "allocate_bars",
+          "despatched_bars"
+        ]
+      }
+    },
+    "finishedProduct": {
+      "TE32": {
+        "fields": [
+          "productType",
+          "areaCode",
+          "allocateStatus"
+        ],
+        "query": {},
+        "column": [
+          "cut_code",
+          "length_mm",
+          "order_item.line_item_code",
+          "spec.spec_code",
+          "area.code",
+          "stock_type",
+          "test_result",
+          "allocation_status",
+          "advice_code"
+        ]
+      },
+      "TE21": {
+        "fields": [
+          "runoutCode"
+        ],
+        "query": {},
+        "column": [
+          "cut_code",
+          "length_mm",
+          "order_item.line_item_code",
+          "spec.spec_code",
+          "area.code",
+          "stock_type",
+          "test_result",
+          "product_type.code",
+          "created_at",
+          "advice_code"
+        ]
+      },
+      "TF17": {
+        "fields": [
+          "runoutCode",
+          "siteType",
+          "siteCode",
+          "areaCode"
+        ],
+        "query": {
+          "runout_id": 2
+        },
+        "column": [
+          "cut_code",
+          "length_mm",
+          "order_item.line_item_code",
+          "spec.spec_code",
+          "area.code",
+          "stock_type",
+          "test_result",
+          "advice_code"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# 开发环境，自行安装
+pytest 
+ipykernel
+factory-boy
+faker
+ipython
+# pymqi==1.12.10

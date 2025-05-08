@@ -1,0 +1,37 @@
+[
+  {
+    "name": "OrderItems",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": ""
+      }
+    ]
+  }
+]

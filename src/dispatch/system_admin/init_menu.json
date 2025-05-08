@@ -1,0 +1,1252 @@
+[
+    {
+        "name": "Order",
+        "icon": "cogs",
+        "sort": 1,
+        "is_link": false,
+        "is_catalog": true,
+        "web_path": "",
+        "component": "",
+        "component_name": "",
+        "status": true,
+        "visible": true,
+        "desc": "",
+        "children": [
+            {
+                "name": "Order List",
+                "icon": "desktop",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/order",
+                "component": "system/config/index",
+                "component_name": "order",
+                "status": true,
+                "visible": true,
+                "desc": "",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/order/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/order/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/order/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/order/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/order/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Order Line Item",
+                "icon": "desktop",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/order_item",
+                "component": "system/config/index",
+                "component_name": "order_item",
+                "status": true,
+                "visible": true,
+                "desc": "",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/order_item/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/order_item/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/order_item/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/order_item/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/order_item/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Order Line Item Detail",
+                "icon": "desktop",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/order_item_detail",
+                "component": "system/config/index",
+                "component_name": "order_item_detail",
+                "status": true,
+                "visible": true,
+                "desc": "",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/order_item_detail/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/order_item_detail/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/order_item_detail/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/order_item_detail/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/order_item_detail/{id}/",
+                        "method": 3
+                    }
+                ]
+            }
+        ],
+        "menu_button": []
+    },
+    {
+        "name": "Rolling",
+        "icon": "cogs",
+        "sort": 2,
+        "is_link": false,
+        "is_catalog": true,
+        "web_path": "",
+        "component": "",
+        "component_name": "",
+        "status": true,
+        "visible": true,
+        "desc": "",
+        "children": [
+            {
+                "name": "Rolling List",
+                "icon": "mdi-calendar-month-outline",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/rolling_list",
+                "component": "system/config/index",
+                "component_name": "rolling_list",
+                "status": true,
+                "visible": true,
+                "desc": "Covers OE14, TY23, TY44",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/rolling_list/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/rolling_list/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/rolling_list/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/rolling_list/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/rolling_list/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Rolling Detail",
+                "icon": "desktop",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/rolling_detail",
+                "component": "system/config/index",
+                "component_name": "rolling_detail",
+                "status": true,
+                "visible": true,
+                "desc": "Covers TE29, OE17, TY44",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/rolling_detail/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/rolling_detail/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/rolling_detail/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/rolling_detail/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/rolling_detail/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Block Detail",
+                "icon": "desktop",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/rolling_block_detail",
+                "component": "system/config/index",
+                "component_name": "rolling_block_detail",
+                "status": true,
+                "visible": true,
+                "desc": "Block Detail",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/rolling_block_detail/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/rolling_block_detail/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/rolling_block_detail/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/rolling_block_detail/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/rolling_block_detail/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Rolling Stats",
+                "icon": "desktop",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/rolling_stats",
+                "component": "system/config/index",
+                "component_name": "rolling_stats",
+                "status": true,
+                "visible": true,
+                "desc": "Rolling Stats",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/rolling_stats/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/rolling_stats/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/rolling_stats/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/rolling_stats/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/rolling_stats/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semi Charge Status",
+                "icon": "mdi-gas-burner",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_charge_status",
+                "component": "system/config/index",
+                "component_name": "semi_charge_status",
+                "status": true,
+                "visible": true,
+                "desc": "Semi Charge Status",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_charge_status/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_charge_status/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_charge_status/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_charge_status/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_charge_status/{id}/",
+                        "method": 3
+                    }
+                ]
+            }
+        ],
+        "menu_button": []
+    },
+    {
+        "name": "Semi",
+        "icon": "cogs",
+        "sort": 3,
+        "is_link": false,
+        "is_catalog": true,
+        "web_path": "",
+        "component": "",
+        "component_name": "",
+        "status": true,
+        "visible": true,
+        "desc": "",
+        "children": [
+            {
+                "name": "Cast List",
+                "icon": "mdi-calendar-month-outline",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_cast_list",
+                "component": "system/config/index",
+                "component_name": "semi_cast_list",
+                "status": true,
+                "visible": true,
+                "desc": "Cast List",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_cast_list/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_cast_list/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_cast_list/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_cast_list/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_cast_list/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Cast Detail",
+                "icon": "desktop",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_cast_detail",
+                "component": "system/config/index",
+                "component_name": "semi_cast_detail",
+                "status": true,
+                "visible": true,
+                "desc": "Cast Detail",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_cast_detail/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_cast_detail/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_cast_detail/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_cast_detail/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_cast_detail/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semi Monitor Rerank",
+                "icon": "mdi-clock-time-three-outline",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_monitor_rerank",
+                "component": "system/config/index",
+                "component_name": "semi_monitor_rerank",
+                "status": true,
+                "visible": true,
+                "desc": "Semi Monitor Rerank",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_monitor_rerank/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_monitor_rerank/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_monitor_rerank/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_monitor_rerank/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_monitor_rerank/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semi List",
+                "icon": "mdi-account-group",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_list",
+                "component": "system/config/index",
+                "component_name": "semi_list",
+                "status": true,
+                "visible": true,
+                "desc": "Semi List",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_list/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_list/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_list/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_list/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_list/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semi Detail",
+                "icon": "mdi-gas-burner",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_detail",
+                "component": "system/config/index",
+                "component_name": "semi_detail",
+                "status": true,
+                "visible": true,
+                "desc": "Semi Detail",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_detail/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_detail/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_detail/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_detail/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_detail/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semi Load Detail",
+                "icon": "mdi-gas-burner",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_load_detail",
+                "component": "system/config/index",
+                "component_name": "semi_load_detail",
+                "status": true,
+                "visible": true,
+                "desc": "Semi Load Detail",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_load_detail/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_load_detail/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_load_detail/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_load_detail/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_load_detail/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Candidate For Order",
+                "icon": "mdi-clock-time-three-outline",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_candidate_for_order",
+                "component": "system/config/index",
+                "component_name": "semi_candidate_for_order",
+                "status": true,
+                "visible": true,
+                "desc": "Candidate For Order",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_candidate_for_order/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_candidate_for_order/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_candidate_for_order/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_candidate_for_order/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_candidate_for_order/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semi End Use To Spec",
+                "icon": "mdi-clock-time-three-outline",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_end_use_to_spec",
+                "component": "system/config/index",
+                "component_name": "semi_end_use_to_spec",
+                "status": true,
+                "visible": true,
+                "desc": "Semi Load Detail",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_end_use_to_spec/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_end_use_to_spec/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_end_use_to_spec/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_end_use_to_spec/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_end_use_to_spec/{id}/",
+                        "method": 3
+                    }
+                ]
+            }
+        ],
+        "menu_button": []
+    },
+    {
+        "name": "Product Spec",
+        "icon": "cogs",
+        "sort": 4,
+        "is_link": false,
+        "is_catalog": true,
+        "web_path": "",
+        "component": "",
+        "component_name": "",
+        "status": true,
+        "visible": true,
+        "desc": "",
+        "children": [
+            {
+                "name": "Spec List",
+                "icon": "mdi-account-group",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/spec",
+                "component": "system/config/index",
+                "component_name": "spec",
+                "status": true,
+                "visible": true,
+                "desc": "Spec List",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/spec/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/spec/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/spec/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/spec/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/spec/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Spec Detail",
+                "icon": "mdi-account-group",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/spec_detail",
+                "component": "system/config/index",
+                "component_name": "spec_detail",
+                "status": true,
+                "visible": true,
+                "desc": "Cast Detail",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/spec_detail/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/spec_detail/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/spec_detail/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/spec_detail/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/spec_detail/{id}/",
+                        "method": 3
+                    }
+                ]
+            }
+        ],
+        "menu_button": []
+    },
+    {
+        "name": "Test",
+        "icon": "cogs",
+        "sort": 3,
+        "is_link": false,
+        "is_catalog": true,
+        "web_path": "",
+        "component": "",
+        "component_name": "",
+        "status": true,
+        "visible": true,
+        "desc": "",
+        "children": [
+            {
+                "name": "Test Sample List",
+                "icon": "mdi-clock-time-three-outline",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/test_sample_list",
+                "component": "system/config/index",
+                "component_name": "test_sample_list",
+                "status": true,
+                "visible": true,
+                "desc": "Test Sample List",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/test_sample_list/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/test_sample_list/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/test_sample_list/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/test_sample_list/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/test_sample_list/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Test Sample Detail",
+                "icon": "desktop",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_cast_detail",
+                "component": "system/config/index",
+                "component_name": "semi_cast_detail",
+                "status": true,
+                "visible": true,
+                "desc": "Cast Detail",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_cast_detail/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_cast_detail/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_cast_detail/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_cast_detail/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_cast_detail/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semi Monitor Rerank",
+                "icon": "mdi-clock-time-three-outline",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_monitor_rerank",
+                "component": "system/config/index",
+                "component_name": "semi_monitor_rerank",
+                "status": true,
+                "visible": true,
+                "desc": "Semi Monitor Rerank",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_monitor_rerank/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_monitor_rerank/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_monitor_rerank/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_monitor_rerank/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_monitor_rerank/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semi List",
+                "icon": "mdi-account-group",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_list",
+                "component": "system/config/index",
+                "component_name": "semi_list",
+                "status": true,
+                "visible": true,
+                "desc": "Semi List",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_list/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_list/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_list/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_list/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_list/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semi Detail",
+                "icon": "mdi-gas-burner",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_detail",
+                "component": "system/config/index",
+                "component_name": "semi_detail",
+                "status": true,
+                "visible": true,
+                "desc": "Semi Detail",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_detail/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_detail/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_detail/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_detail/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_detail/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semi Load Detail",
+                "icon": "mdi-gas-burner",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_load_detail",
+                "component": "system/config/index",
+                "component_name": "semi_load_detail",
+                "status": true,
+                "visible": true,
+                "desc": "Semi Load Detail",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_load_detail/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_load_detail/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_load_detail/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_load_detail/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_load_detail/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Candidate For Order",
+                "icon": "mdi-clock-time-three-outline",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_candidate_for_order",
+                "component": "system/config/index",
+                "component_name": "semi_candidate_for_order",
+                "status": true,
+                "visible": true,
+                "desc": "Candidate For Order",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_candidate_for_order/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_candidate_for_order/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_candidate_for_order/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_candidate_for_order/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_candidate_for_order/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semi End Use To Spec",
+                "icon": "mdi-clock-time-three-outline",
+                "sort": 0,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/semi_end_use_to_spec",
+                "component": "system/config/index",
+                "component_name": "semi_end_use_to_spec",
+                "status": true,
+                "visible": true,
+                "desc": "Semi Load Detail",
+                "menu_button": [
+                    {
+                        "name": "Search",
+                        "value": "Search",
+                        "api": "/api/v1/semi_end_use_to_spec/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Detail",
+                        "value": "Retrieve",
+                        "api": "/api/v1/semi_end_use_to_spec/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "Create",
+                        "value": "Create",
+                        "api": "/api/v1/semi_end_use_to_spec/",
+                        "method": 1
+                    },
+                    {
+                        "name": "Update",
+                        "value": "Update",
+                        "api": "/api/v1/semi_end_use_to_spec/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "Delete",
+                        "value": "Delete",
+                        "api": "/api/v1/semi_end_use_to_spec/{id}/",
+                        "method": 3
+                    }
+                ]
+            }
+        ],
+        "menu_button": []
+    }
+]

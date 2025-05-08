@@ -1,0 +1,4769 @@
+[
+  {
+    "name": "Order",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/order/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/order/{id}/"
+      }
+    ]
+  },
+  {
+    "name": "Order Items",
+    "MenuButton": [
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/order_item/"
+      },
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/order_item/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/order_item/{order_id}"
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": "",
+        "api": ""
+      },
+      {
+        "name": "Move",
+        "value": "Move",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/rolling/"
+      }
+    ]
+  },
+  {
+    "name": "Order Item Detail",
+    "GroupName": "Order",
+    "MenuButton": [
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/finished_product/"
+      },
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/finished_product/"
+      },
+      {
+        "name": "AutoLoadPlan",
+        "value": "AutoLoadPlan",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product_load/auto_plan"
+      },
+      {
+        "name": "RuturnToOrderItem",
+        "value": "RuturnToOrderItem",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/order_item/"
+      },
+      {
+        "name": "CreateNewLoad",
+        "value": "CreateNewLoad",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/order_item/{orderItem_id}"
+      }
+    ]
+  },
+  {
+    "name": "Rolling",
+    "MenuButton": [
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/rolling/"
+      },
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/rolling/"
+      },
+      {
+        "name": "SendToPC",
+        "value": "SendToPC",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/rolling/update_rolling_status_batch"
+      },
+      {
+        "name": "Export",
+        "value": "Export",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/rolling/export_rolling_file"
+      },
+      {
+        "name": "Import",
+        "value": "Import",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/rolling/import_rolling_file"
+      },
+      {
+        "name": "DeleteFromPc",
+        "value": "DeleteFromPc",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/rolling/send_pc_m240"
+      },
+      {
+        "name": "ExportToFTP",
+        "value": "ExportToFTP",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/rolling/export_rolling_file_to_ftp"
+      },
+      {
+        "name": "ImportFromFTP",
+        "value": "ImportFromFTP",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/rolling/import_rolling_file_from_ftp"
+      },
+      {
+        "name": "New",
+        "value": "New",
+        "method": 1,
+        "remark": "",
+        "api":""
+      }
+    ]
+  },
+  {
+    "name": "Rolling Detail",
+    "GroupName": "Rolling",
+    "MenuButton": [
+      {
+        "name": "OpenRolling",
+        "value": "OpenRolling",
+        "method": 0,
+        "remark": "",
+        "api":""
+      },
+      {
+        "name": "CloseRolling",
+        "value": "CloseRolling",
+        "method": 0,
+        "remark": "",
+        "api":""
+      },
+      {
+        "name": "CompleteRolling",
+        "value": "CompleteRolling",
+        "method": 1,
+        "remark": ""
+      },
+      {
+        "name": "PrintChargeList",
+        "value": "PrintChargeList",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/rolling/print_charge_list/{id}"
+      },
+      {
+        "name": "AllocateBlock",
+        "value": "AllocateBlock",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/rolling/allocate_blocks"
+      },
+      {
+        "name": "OrderGroupList",
+        "value": "OrderGroupList",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/order_group/list"
+      },
+      {
+        "name": "OrderItemList",
+        "value": "OrderItemList",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/order_item/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/rolling/{id}"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/order_item/"
+      },
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/order_item/"
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 3,
+        "remark": ""
+      },
+      {
+        "name": "SawLineSummary",
+        "value": "SawLineSummary",
+        "method": 3,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Order Group",
+    "GroupName": "Order",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/order_group/list"
+      },
+      {
+        "name": "ReserveSequence",
+        "value": "ReserveSequence",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/order_group/reverse"
+      },
+      {
+        "name": "ReturnToRolling",
+        "value": "ReturnToRolling",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/rolling/{id}"
+      },
+      {
+        "name": "SendToPC",
+        "value": "SendToPC",
+        "method": 3,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 3,
+        "remark": ""
+      },
+      {
+        "name": "CutSequence",
+        "value": "CutSequence",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/cut_sequence_plan/"
+      },
+      {
+        "name": "Move",
+        "value": "Move",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/order_group/move/{order_group_id}"
+      },
+      {
+        "name": "Details",
+        "value": "Details",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/order_group/byid/{orderGroup_id}"
+      }
+    ]
+  },
+  {
+    "name": "Order Group Block",
+    "GroupName": "Order",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/cast_spec/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": ""
+      },
+      {
+        "name": "Block",
+        "value": "Block",
+        "method": 1,
+        "remark": "",
+        "api": "/api/v1/semi/block"
+      },
+      {
+        "name": "Unblock",
+        "value": "Unblock",
+        "method": 1,
+        "remark": "",
+        "api": "/api/v1/semi/unblock"
+      },
+      {
+        "name": "Reserve",
+        "value": "Reserve",
+        "method": 1,
+        "remark": "",
+        "api": "/api/v1/semi/reserve"
+      },
+      {
+        "name": "Unreserve",
+        "value": "Unreserve",
+        "method": 1,
+        "remark": "",
+        "api": "/api/v1/semi/unreserve"
+      },
+      {
+        "name": "Reverse Sequence",
+        "value": "Reverse Sequence",
+        "method": 1,
+        "remark": "",
+        "api": "/api/v1/cast_spec/reverse"
+      },
+      {
+        "name": "Return to Rolling",
+        "value": "Return to Rolling",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/order_group/list"
+      }
+    ]
+  },
+  {
+    "name": "Order Items Statistics",
+    "MenuButton": [
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/order_item/order_items/statistics"
+      },
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/order_item/order_items/statistics"
+      }
+    ]
+  },
+  {
+    "name": "Semi Reblocking",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi/"
+      },
+      {
+        "name": "Semi Block",
+        "value": "Semi Block",
+        "method": 1,
+        "remark": "/api/v1/semi/block",
+        "api":"/api/v1/semi/block"
+      },
+      {
+        "name": "UpdateComment",
+        "value": "UpdateComment",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi/{semi_id}"
+      }
+    ]
+  },
+  {
+    "name": "Rolling Statistics",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/rolling/statistics/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/rolling/statistics/"
+      }
+    ]
+  },
+  {
+    "name": "ProductType",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Product Code",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/product_class/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api": "/api/v1/product_class/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/product_class/create"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/product_class/update/{id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/product_class/{id}"
+      }
+    ]
+  },
+  {
+    "name": "Section Type",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/product_category/cate/get"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/product_category/cate/get"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/product_category/create"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/product_category/{id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/product_category/{id}"
+      }
+    ]
+  },
+  {
+    "name": "Cast",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/cast/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/cast/"
+      },
+      {
+        "name": "Export",
+        "value": "Export",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/cast/export_cast_file"
+      },
+
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/cast/{id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/cast/{id}"
+      },
+      {
+        "name": "Import",
+        "value": "Import",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/cast/import_cast"
+      },
+      {
+        "name": "ImportNew",
+        "value": "ImportNew",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/cast/import_cast_file_new"
+      }
+    ]
+  },
+  {
+    "name": "Cast Chemical Detail",
+    "GroupName": "Semi",
+    "MenuButton": [
+      {
+        "name": "Compare",
+        "value": "Compare",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/cast/cast_quality/item/{quality_id}"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 1,
+        "remark": ""
+      },
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/cast_spec/cast_spec_list/{cast_id}"
+      },
+      {
+        "name": "RunEndUse",
+        "value": "RunEndUse",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/cast_spec/run_end_use/{cast_id}"
+      },
+      {
+        "name": "Authorize",
+        "value": "Authorize",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/cast/authorize_date/{cast_id}"
+      }
+    ]
+  },
+  {
+    "name": "Cast Spec",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/cast_spec/cast_spec_all"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/cast_spec/cast_spec_all"
+      }
+    ]
+  },
+  {
+    "name": "Semi",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi/get_all/false"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi/get_all/false"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi/{semi_id}"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi/{semi_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/semi/{semi_id}"
+      },
+      {
+        "name": "Return",
+        "value": "Return",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi/return"
+      },
+      {
+        "name": "Hold",
+        "value": "Hold",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi/update_add_hold"
+      },
+      {
+        "name": "Unhold",
+        "value": "Unhold",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi/update_delete_hold"
+      },
+      {
+        "name": "Move",
+        "value": "Move",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/area/item/code/semi/move"
+      },
+      {
+        "name": "Export",
+        "value": "Export",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi/export_semi_file"
+      },
+      {
+        "name": "Import",
+        "value": "Import",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi/import_semi_file_new"
+      },
+      {
+        "name": "Rework",
+        "value": "Rework",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi/rework"
+      },
+      {
+        "name": "ReworkComplete",
+        "value": "ReworkComplete",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi/rework/complete"
+      },
+      {
+        "name": "Defect",
+        "value": "Defect",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi/defects"
+      },
+      {
+        "name": "Scrap",
+        "value": "Scrap",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi/scrap/{semi_id}"
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 3,
+        "remark": ""
+      },
+      {
+        "name": "Bloom Only",
+        "value": "bloom_only",
+        "method": 3,
+        "remark": ""
+      },
+      {
+        "name": "Slab Only",
+        "value": "slab_only",
+        "method": 3,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Semi Detail",
+    "GroupName": "Semi",
+    "MenuButton": [
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi/{semi_id}"
+      },
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi/"
+      }
+    ]
+  },
+  {
+    "name": "Semi Load",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi_load/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi_load/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi_load/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi_load/{semi_load_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/semi_load/{semi_load_id}"
+      },
+      {
+        "name": "Tip",
+        "value": "Tip",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi_load/tip"
+      },
+      {
+        "name": "Receive",
+        "value": "Receive",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi_load/update_status"
+      }
+    ]
+  },
+  {
+    "name": "Semi Load Detail",
+    "MenuButton": [
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": ""
+      },
+      {
+        "name": "Add",
+        "value": "Add",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi/"
+      },
+      {
+        "name": "Tip",
+        "value": "Tip",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi_load/tip"
+      },
+      {
+        "name": "Move",
+        "value": "Move",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/area/item/code/semi/move"
+      },
+      {
+        "name": "Receive",
+        "value": "Receive",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi_load/update_status"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi_load/{semi_load_id}"
+      }
+    ]
+  },
+  {
+    "name": "Semi History",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi_move_history/"
+      }
+    ]
+  },
+  {
+    "name": "Alternative Semi Size",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/alternative_semi_size/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/alternative_semi_size/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/alternative_semi_size/{semi_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/alternative_semi_size/{semi_id}"
+      }
+    ]
+  },
+  {
+    "name": "Semi Size",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi_size/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi_size/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi_size/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi_size/{semi_size_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/semi_size/{semi_size_id}"
+      }
+    ]
+  },
+  {
+    "name": "Semi Size Detail",
+    "GroupName": "Semi",
+    "MenuButton": [
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi_size_detail/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi_size_detail/{semi_size_detail_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/semi_size_detail/{semi_size_detail_id}"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi_size/{semi_size_id}"
+
+      }
+    ]
+  },
+  {
+    "name": "Semi Stock Level",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/stock_level/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/stock_level/"
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 1,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Manual Semi End Use",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi_end_use_manual/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi_end_use_manual/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi_end_use_manual/bulk_create"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi_end_use_manual/{manual_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/semi_end_use_manual/{manual_id}"
+      }
+    ]
+  },
+  {
+    "name": "Spec",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spec/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spec/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spec/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spec/{spec_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spec/{spec_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spec/copy/{spec_id}"
+      }
+    ]
+  },
+  {
+    "name": "Spec Detail",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": ""
+      },
+      {
+        "name": "Archive",
+        "value": "Archive",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spec/archive_spec_version"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spec/{spec_id}"
+      },
+      {
+        "name": "New Editor Note",
+        "value": "New Editor Note",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/remark/spec_remark/create_editor_notes"
+      },
+      {
+        "name": "New Specification Text",
+        "value": "New Specification Text",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/remark/spec_remark/create_spec_text"
+      },
+      {
+        "name": "New Remark",
+        "value": "New Remark",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/remark/spec_remark/create"
+      }
+    ]
+  },
+  {
+    "name": "Mill Reference Spec",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spmillref/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spmillref/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spmillref/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spmillref/{spmillref_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spmillref/{spmillref_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spmillref/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Impact",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spimpact/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spimpact/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spimpact/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spimpact/{spImpact_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spimpact/{spImpact_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spimpact/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "UTS",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/sptensil/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/sptensil/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/sptensil/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/sptensil/{sptensil_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/sptensil/{sptensil_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/sptensil/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Yield Stress",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spyield/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spyield/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spyield/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spyield/{spyield_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spyield/{spyield_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spyield/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Elongation Details",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spelong/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spelong/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spelong/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spelong/{speLong_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spelong/{speLong_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spelong/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Main Element Analysis",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spmainel/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spmainel/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spmainel/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spmainel/{spMainEl_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spmainel/{spMainEl_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spmainel/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Combined Element Analysis",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spcombel/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spcombel/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spcombel/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spcombel/{spComBel_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spcombel/{spComBel_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spcombel/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Product Analysis",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spprodan/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spprodan/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spprodan/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spprodan/{spprodan_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spprodan/{spprodan_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spprodan/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "CEV End Use",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spcev/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spcev/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spcev/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spcev/{spcev_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spcev/{spcev_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spcev/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "CEV Analysis",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spcevan/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spcevan/"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spcevan/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spcevan/{spcevan_id}"
+      },
+      { 
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spcevan/{spcevan_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spcevan/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Routing Requirement",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spsource/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spsource/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spsource/{spsource_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spsource/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spsource/{spsource_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": ""
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spsource/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Jominy Details",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spjominy/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spjominy/{specJominy_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spjominy/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spjominy/{specJominy_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spjominy/{specJominy_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spjominy/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Bend Test Details",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spbend/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spbend/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spbend/{spbend_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spbend/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spbend/{spbend_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spbend/{spbend_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spbend/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Deoxidation Details",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/deoxidation/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/deoxidation/{deoxidation_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/deoxidation/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/deoxidation/{deoxidation_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/deoxidation/{deoxidation_id}"
+      }
+    ]
+  },
+  {
+    "name": "Test Cert Extra Details",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/sptcert/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/sptcert/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/sptcert/{sptcert_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/sptcert/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/sptcert/{sptcert_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/sptcert/{sptcert_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/sptcert/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Inspector",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/inspector/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/inspector/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/inspector/{inspector_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/inspector/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/inspector/{inspector_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/inspector/{inspector_id}"
+      }
+    ]
+  },
+  {
+    "name": "Tolerance",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/tolerance/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/tolerance/{tolerance_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/tolerance/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/tolerance/{tolerance_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/tolerance/{tolerance_id}"
+      }
+    ]
+  },
+  {
+    "name": "Tolerance Detail",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/tolerance_detail/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/tolerance_detail/{tolerance_detail_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/tolerance_detail/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/tolerance_detail/{tolerance_detail_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/tolerance_detail/{tolerance_detail_id}"
+      }
+    ]
+  },
+  {
+    "name": "Supply Conditions",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spscond/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spscond/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spscond/{spscond_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spscond/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spscond/{spscond_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spscond/{spscond_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spscond/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Spec Remark",
+    "GroupName": "Product Spec",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/remark/get_all/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/remark/get_all/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/remark/update/{id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/remark/create"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/remark/update/{id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/remark/{id}"
+      }
+    ]
+  },
+  {
+    "name": "Through Thickness Tensile",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spria/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/spria/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spria/{spria_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spria/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/spria/{spria_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/spria/{spria_id}"
+      },
+      {
+        "name": "Copy To",
+        "value": "Copy To",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/spria/copy_to"
+      }
+    ]
+  },
+  {
+    "name": "Alternative Quality Code",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Quality",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/quality/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/quality/{quality_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/quality/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/quality/{quality_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/quality/{qualityEl_id}"
+      }
+    ]
+  },
+  {
+    "name": "Quality Element",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/quality_element/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/quality_element/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/quality_element/{quality_element_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/quality_element/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/quality_element/{quality_element_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/quality_element/{quality_element_id}"
+      }
+    ]
+  },
+  {
+    "name": "Test Sample",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_sample/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_sample/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/test_sample/{testSample_id}"
+      },
+      {
+        "name": "Receive",
+        "value": "Receive",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/test_sample/reserve"
+      },
+      {
+        "name": "Cut",
+        "value": "Cut",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/test_sample/cut"
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Test",
+        "value": "Test",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test/"
+      },
+      {
+        "name": "Tensile",
+        "value": "Tensile",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_tensile/"
+      },
+      {
+        "name": "Impact",
+        "value": "Impact",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_impact/"
+      },
+      {
+        "name": "Chemical",
+        "value": "Chemical",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_prodan/"
+      },
+      {
+        "name": "Through Thickness",
+        "value": "Through Thickness",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_result_tensile_thickness/"
+      }
+    ]
+  },
+  {
+    "name": "Print Control List",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test/print_status/list"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test/print_status/add"
+      }
+    ]
+  },
+  {
+    "name": "Cleanness Test Card",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Test Result Tensile",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_tensile/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_tensile/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/test/new/create"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/test_tensile/{TestTensile_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/test_tensile/{TestTensile_id}"
+      }
+    ]
+  },
+  {
+    "name": "Sulphur Test Card",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Test Result Impact",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_impact/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_impact/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/test/new/create"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/test_impact/{TestImpact_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/test_impact/{TestImpact_id}"
+      }
+    ]
+  },
+  {
+    "name": "Hardness Test Card",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Test Result Product Analysis",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_prodan/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_prodan/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/test/new/create"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/test_prodan/{TestProductAnalysis_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/test_prodan/{TestProductAnalysis_id}"
+      }
+    ]
+  },
+  {
+    "name": "Test Result Through Thickness Tensile",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_result_tensile_thickness/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_result_tensile_thickness/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/test_result_tensile_thickness/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/test_result_tensile_thickness/{testResultTensileThickness_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/test_result_tensile_thickness/{testResultTensileThickness_id}"
+      }
+    ]
+  },
+  {
+    "name": "Test Jominy",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_jominy/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_jominy/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/test_jominy/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/test_jominy/{test_jominy_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/test_jominy/{test_jominy_id}"
+      }
+
+    ]
+  },
+  {
+    "name": "Decarburisation Test Card",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Bend Test Card",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Product Hydrogen Test Card",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Test",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/test/new/create"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/test/new/update"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/test/new/delete/{test_id}"
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "AutoPass",
+        "value": "AutoPass",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/cover_end_use/init_test/cover_all"
+      }
+    ]
+  },
+  {
+    "name": "Test History",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_history/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_history/"
+      },
+      {
+        "name": "Confirm",
+        "value": "Confirm",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/test_history/confirm/{test_history_id}"
+      }
+    ]
+  },
+  {
+    "name": "Covering Usage",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Run Covering",
+        "value": "Run Covering",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Runout",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/runout/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/runout/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/runout/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/runout/{runout_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/runout/{runout_id}"
+      }
+    ]
+  },
+  {
+    "name": "Runout Detail",
+    "GroupName": "Finished Product",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/runout/{runout_id}"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/repeat_create"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 1,
+        "remark": "",
+        "api":""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Finished Product",
+        "value": "Finished Product",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Cover",
+        "value": "Cover",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/cover_end_use/init_test/{runout_id}"
+      },
+      {
+        "name": "Clear",
+        "value": "Clear",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Finished Product",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/finished_product/{finished_product_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/finished_product/{finished_product_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/finished_product/{finished_product_id}"
+      },
+      {
+        "name": "Hold",
+        "value": "Hold",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Unhold",
+        "value": "Unhold",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Rework",
+        "value": "Rework",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/finished_product/rework"
+      },
+      {
+        "name": "Rework Complete",
+        "value": "Rework Complete",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/finished_product/rework/complete"
+      },
+      {
+        "name": "Move",
+        "value": "Move",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/move_to"
+      },
+      {
+        "name": "Combine",
+        "value": "Combine",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/combine"
+      },
+      {
+        "name": "Split",
+        "value": "Split",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/split"
+      },
+      {
+        "name": "Part-Sawn",
+        "value": "Part-Sawn",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/cut_test_sample/PartSawn"
+      },
+      {
+        "name": "Allocate",
+        "value": "Allocate",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/finished_product/allocate_mult"
+      },
+      {
+        "name": "Regrade",
+        "value": "Regrade",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/regrade"
+      },
+      {
+        "name": "Defect",
+        "value": "Defect",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/defects"
+      },
+      {
+        "name": "Create Load",
+        "value": "Create Load",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/load_create"
+      },
+      {
+        "name": "Archieve",
+        "value": "Archieve",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Return",
+        "value": "Return",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/return"
+      },
+      {
+        "name": "Create Advice",
+        "value": "Create Advice",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Label Print",
+        "value": "Label Print",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Uncover",
+        "value": "Uncover",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/cover_end_use/uncover"
+      },
+      {
+        "name": "Allocate Force Confirm",
+        "value": "Allocate Force Confirm",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Regrade Force Confirm",
+        "value": "Regrade Force Confirm",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Rebundle",
+        "value": "Rebundle",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/comments/rebundle"
+      }
+    ]
+  },
+  {
+    "name": "Finished Product Detail",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/get_by_search_dict"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/get_by_search_dict"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/finished_product/62128"
+      }
+    ]
+  },
+  {
+    "name": "Finished Product Stock Level",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product_stock_level/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product_stock_level/"
+      }
+    ]
+  },
+  {
+    "name": "Finished Product History",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product_history/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product_history/"
+      }
+    ]
+  },
+  {
+    "name": "Order Reserve",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product/reserve/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Reserve",
+        "value": "Reserve",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Load",
+    "GroupName": "Finished Product",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product_load/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product_load/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/finished_product_load/{id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product_load/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/finished_product_load/{id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/finished_product_load/{id}"
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Move",
+        "value": "Move",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product_load/move_to"
+      },
+      {
+        "name": "Carry Out",
+        "value": "Carry Out",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/finished_product_load/carry"
+      }
+    ]
+  },
+  {
+    "name": "Finished Product Load Detail",
+    "GroupName": "Finished Product",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product_load/code/{code}"
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create Consignment/Advice",
+        "value": "Create Consignment/Advice",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product_load/4592"
+      },
+      {
+        "name": "Move",
+        "value": "Move",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/move_to"
+      },
+      {
+        "name": "Split",
+        "value": "Split",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/finished_product/split"
+      },
+      {
+        "name": "ADD",
+        "value": "Add",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product_load/{id}"
+      }
+    ]
+  },
+  {
+    "name": "Advice/Consignment",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/advice/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/advice/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/advice/{advice_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/advice/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/advice/{advice_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/advice/{advice_id}"
+      },
+      {
+        "name": "Cancel",
+        "value": "Cancel",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/advice/update_cancel"
+      },
+      {
+        "name": "Deload",
+        "value": "Deload",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/advice/update_deload"
+      },
+      {
+        "name": "Return",
+        "value": "Return",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Tip",
+        "value": "Tip",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/advice/tip_update"
+      },
+      {
+        "name": "Split",
+        "value": "Split",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/advice/split/{advice_id}"
+      },
+      {
+        "name": "Move",
+        "value": "Move",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/advice/move_to"
+      },
+      {
+        "name": "Replaced",
+        "value": "Replaced",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/advice/replace/{advice_id}"
+      },
+      {
+        "name": "Print",
+        "value": "Print",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Mult",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Confirm",
+        "value": "Confirm",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/finished_product/mult/confirm"
+      }
+    ]
+  },
+  {
+    "name": "Transport",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/transport/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/transport/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/transport/{transport_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/transport/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/transport/{transport_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/transport/{transport_id}"
+      },
+      {
+        "name": "Onload",
+        "value": "Onload",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Deload",
+        "value": "Deload",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Transport History",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/transport_history/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/transport_history/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Batch Hold and Cover",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/finished_product/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Hold",
+        "value": "Hold",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Unhold",
+        "value": "Unhold",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Cover",
+        "value": "Cover",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/cover_end_use/batch_cover"
+      },
+      {
+        "name": "UnCover",
+        "value": "UnCover",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/cover_end_use/batch_uncover"
+      }
+    ]
+  },
+  {
+    "name": "Operation Log",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/opreation_log/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/opreation_log/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Message Log",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/message_log/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/message_log/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/message_log/{message_id}"
+      },
+      {
+        "name": "Repeat",
+        "value": "Repeat",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Site Type",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/site_type/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/site_type/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/site_type/{site_type_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/site_type/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/site_type/{site_type_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/site_type/{site_type_id}"
+      }
+    ]
+  },
+  {
+    "name": "Defect Reason",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/defect_reason/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/defect_reason/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/defect_reason/{id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/defect_reason/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/defect_reason/{id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/defect_reason/{id}"
+      }
+    ]
+  },
+  {
+    "name": "Site",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/site/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/site/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/site/{site_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/site/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/site/{site_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/site/{site_id}"
+      }
+    ]
+  },
+  {
+    "name": "Shift",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/shift/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/shift/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/shift/{id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/shift/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/shift/{id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/shift/{Shift_id}"
+      }
+    ]
+  },
+  {
+    "name": "Area",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/area/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/area/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/area/{area_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/area/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/area/{area_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/area/{area_id}"
+      }
+    ]
+  },
+  {
+    "name": "Hold Reason",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/holdreason/"
+      },
+      {
+        "name": "Reset",
+        "value": "Reset",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/holdreason/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/holdreason/{holdreason_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/holdreason/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/holdreason/{holdreason_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/holdreason/{holdreason_id}"
+      }
+    ]
+  },
+  {
+    "name": "Regrade Reason",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/regradereason/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/regradereason/{regradereason_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/regradereason/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/regradereason/{regradereason_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/regradereason/{regradereason_id}"
+      }
+    ]
+  },
+  {
+    "name": "Semi Hold Reason",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/semi_hold_reason/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi_hold_reason/{holdreason_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi_hold_reason/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi_hold_reason/{holdreason_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/semi_hold_reason/{holdreason_id}"
+      }
+    ]
+  },
+  {
+    "name": "Mill",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/mill/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/mill/{mill_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/mill/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/mill/{mill_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/mill/{mill_id}"
+      }
+    ]
+  },
+  {
+    "name": "Setting",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Accounts",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/user/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/user/{user_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/user/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/user/{user_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/user/{user_id}"
+      },
+      {
+        "name": "Edit Password",
+        "value": "Edit Password",
+        "method": 0,
+        "remark": ""
+      }
+    ]
+  },
+  {
+    "name": "Menus",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/menu/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/menu/{Menu_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/menu/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/menu/{Menu_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/menu/{Menu_id}"
+      }
+    ]
+  },
+  {
+    "name": "Roles",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/role/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/role/{Role_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/role/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/role/{Role_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/role/{Role_id}"
+      }
+    ]
+  },
+  {
+    "name": "MLJC Test",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/test_job/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 0,
+        "remark": ""
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/test_job/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/test_job/{test_job_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/test_job/{test_job_id}"
+      }
+    ]
+  },
+  {
+    "name": "Customer",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/customer/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/customer/detail/{customer_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/customer/create"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/customer/detail/{customer_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/customer/{customer_id}"
+      }
+    ]
+  },
+  {
+    "name": "Section Weight",
+    "MenuButton": [
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi_size_detail/{semi_size_detail_id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/semi_size_detail/"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/semi_size_detail/{semi_size_detail_id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/semi_size_detail/{semi_size_detail_id}"
+      }
+    ]
+  },
+  {
+    "name": "Product Size",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/product_size/"
+      },
+      {
+        "name": "Detail",
+        "value": "Detail",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/product_size/update/{id}"
+      },
+      {
+        "name": "Create",
+        "value": "Create",
+        "method": 1,
+        "remark": "",
+        "api":"/api/v1/product_size/create"
+      },
+      {
+        "name": "Update",
+        "value": "Update",
+        "method": 2,
+        "remark": "",
+        "api":"/api/v1/product_size/update/{id}"
+      },
+      {
+        "name": "Delete",
+        "value": "Delete",
+        "method": 3,
+        "remark": "",
+        "api":"/api/v1/product_size/{id}"
+      }
+    ]
+  },
+  {
+    "name": "Spec Various",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/sp_various/"
+      }
+    ]
+  },
+  {
+    "name": "Spec Remarks",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/sp_obs/"
+      }
+    ]
+  },
+  {
+    "name": "Spec Other Test",
+    "MenuButton": [
+      {
+        "name": "Search",
+        "value": "Search",
+        "method": 0,
+        "remark": "",
+        "api":"/api/v1/sp_other_test/"
+      }
+    ]
+  }
+]
