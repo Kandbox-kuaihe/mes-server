@@ -48,7 +48,7 @@ cp .env.template dev.env
 docker-compose -f mes-compose.yml -p easy up -d  或者 docker compose -f mes-compose.yml -p easy up -d
 # 如果本地没有 docker-compose ，也可以执行这个 
 docker run --env-file dev.env -p 5432:5432 -d postgres:16
-docker run --env-file dev.env -p 6379:6379 -d redis:7.4.1
+docker run --env-file dev.env -p 6379:6379 -d redis:latest
 
 # 执行完查看 容器是否成功启动， dbeaver 连接数据库看是否正常 
 
